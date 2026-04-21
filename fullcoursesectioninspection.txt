@@ -1,0 +1,81 @@
+<tr class="esg-table-body__row">
+                        <td class="esg-table-body__td--section-table" data-bind="text: section.TermDisplay(), attr:{ id: 'term-'+$index()}" id="term-0" data-role="Term"><div class="layout-table-cell">Fall 2026</div></td>
+                        <td class="esg-table-body__td--section-table" data-bind="text: section.AvailabilityStatusDisplay(), attr:{ id: 'availability-status-'+$index()}" id="availability-status-0" data-role="Status"><div class="layout-table-cell">Open</div></td>
+                        <td class="esg-table-body__td--section-table" data-role="Section Name"><div class="layout-table-cell">
+                            <a href="#" data-bind="text: section.SectionNameDisplay(),attr:{ id: 'section-name-link-'+$index()}, click: function(data, event) { showSectionDetails({course: section.Course, section: section, allowAdding: false, addTerms: null, addCallback: null, creditsOverride: null, studentId:null, canSkipWaitlist: false })}" title="Show Section Details" id="section-name-link-0">ENES-100-001</a>
+                            <!-- ko if: section.AdditionalFeesApply -->
+                            <span class="offScreen">Please note that this course section has one or more fees in addition to standard tuition fees. Fee information is available in Section Details</span>
+                            <span data-bind="tooltip: { position: 'top', message: Ellucian.Course.SectionCourseCommonDetails.AdditionalFeesApplyString },
+                                                        attr:{'aria-label':Ellucian.Course.SectionCourseCommonDetails.AdditionalFeesApplyString, 
+                                                               id:'section-table-additional-fees-tooltip-'+$index()}" tabindex="0" aria-describedby="tooltip-1" aria-label="Additional fees apply" id="section-table-additional-fees-tooltip-0">
+                                <img class="icon-fees" alt="This course section has additional fees associated with it." src="/Student/Areas/Student/Content/Images/additional-fee-icon.svg" data-bind="attr:{'aria-describedby':'section-table-additional-fees-tooltip-'+$index()}" aria-describedby="section-table-additional-fees-tooltip-0">
+                            </span>
+                            <!-- /ko -->
+
+                            <!-- ko if: section.ShowSpecialIcon -->
+                            <span class="offScreen" data-bind="text: Ellucian.Course.SectionCourseCommonDetails.SpecialIconTooltip"></span>
+                            <span>
+                                <img class="icon-fees" alt="This course section uses open educational resources." data-bind="attr: { src: Ellucian.Course.ActionUrls.specialIconPath, 
+                                                        'aria-label': Ellucian.Course.SectionCourseCommonDetails.SpecialIconTooltip},
+                                                tooltip: { position: 'top', message: Ellucian.Course.SectionCourseCommonDetails.SpecialIconTooltip, zIndex: 1210 }" src="/Student/Content/Images/custom-special-icon.ico" aria-label="">
+                            </span>
+                            <!-- /ko -->
+                            <!-- ko if: section.ShowSpecialIcon2 --><!-- /ko -->
+                            <!-- ko if: section.ShowSpecialIcon3 --><!-- /ko -->
+                            <!-- ko if: section.ShowSpecialIcon4 --><!-- /ko -->
+                            <!-- ko if: section.ShowSpecialIcon5 --><!-- /ko -->
+                        </div></td>
+                        <td class="esg-table-body__td--section-table" data-bind="text: section.Title(), attr:{ id: 'title-'+$index()}" id="title-0" data-role="Title"><div class="layout-table-cell">Intro to Engr Design</div></td>
+                        <td class="esg-table-body__td--section-table" data-bind="text: section.DatesDisplay(),  attr:{ id: 'date-'+$index()}" id="date-0" data-role="Dates"><div class="layout-table-cell">8/24/2026-12/12/2026</div></td>
+                            <td class="esg-table-body__td--section-table" data-bind="text: section.LocationDisplay(),  attr:{ id: 'location-'+$index()}" id="location-0" data-role="Location"><div class="layout-table-cell">Main Campus</div></td>
+                            <td class="esg-table-body__td--section-table" data-bind="foreach: { data: section.InstructionalMethodsDisplay(), as: 'instructionalMethod' },  attr:{ id: 'instructional-methods-'+$index(),  'aria-label': 'Instructional methods for section ' + section.SectionNameDisplay()}" id="instructional-methods-0" aria-label="Instructional methods for section ENES-100-001" data-role="Instructional Methods"><div class="layout-table-cell">
+                                <p data-bind="text: instructionalMethod, attr: { 'aria-label': 'Instructional method is' + instructionalMethod, id: 'section-'+section.Id()+'-instructional-method-'+$index()}" aria-label="Instructional method isLecture" id="section-294750-instructional-method-0">Lecture</p>
+                            
+                                <p data-bind="text: instructionalMethod, attr: { 'aria-label': 'Instructional method is' + instructionalMethod, id: 'section-'+section.Id()+'-instructional-method-'+$index()}" aria-label="Instructional method isLab" id="section-294750-instructional-method-1">Lab</p>
+                            
+                                <p data-bind="text: instructionalMethod, attr: { 'aria-label': 'Instructional method is' + instructionalMethod, id: 'section-'+section.Id()+'-instructional-method-'+$index()}" aria-label="Instructional method isRecitation" id="section-294750-instructional-method-2">Recitation</p>
+                            </div></td>
+                        <td class="esg-table-body__td--section-table" data-bind="foreach: { data: section.MobileMeetingsDisplay, as: 'meeting' }" data-role="Meetings"><div class="layout-table-cell">
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-0">M 9:00-10:50 AM</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-1">8/24/2026 - 12/12/2026</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-2">TCH 165 (LEC)</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-3"></div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-4">W 9:00-10:50 AM</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-5">8/24/2026 - 12/12/2026</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-6">TCH 165 (LAB)</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-7"></div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-8">Th 5:00-5:50 PM</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-9">8/24/2026 - 12/12/2026</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-10">TCH 101 (RCT)</div>
+                        
+                            <div data-bind="text: meeting,  attr:{ id: 'section-'+section.Id()+'-meeting-'+$index()}" id="section-294750-meeting-11"></div>
+                        </div></td>
+                        <td class="esg-table-body__td--section-table" data-bind="foreach: { data: section.InstructorDetails, as: 'faculty' }" data-role="Faculty"><div class="layout-table-cell">
+                            <!-- ko if: !isGuest && $parent.DisplayOfficeHours() === true--><!-- /ko -->
+                            <!-- ko if: isGuest || $parent.DisplayOfficeHours() === false -->
+                            <span data-bind="text: faculty.FacultyName, attr: { 'aria-label': 'Faculty Office Hours for ' + faculty.FacultyName(), id: 'section-'+section.Id()+'-faculty-'+$index()}" title="Show Office Hours" aria-label="Faculty Office Hours for Mr. Kevin D. Johnson" id="section-294750-faculty-0">Mr. Kevin D. Johnson</span> <br>
+                            <!-- /ko -->
+                        
+                            <!-- ko if: !isGuest && $parent.DisplayOfficeHours() === true--><!-- /ko -->
+                            <!-- ko if: isGuest || $parent.DisplayOfficeHours() === false -->
+                            <span data-bind="text: faculty.FacultyName, attr: { 'aria-label': 'Faculty Office Hours for ' + faculty.FacultyName(), id: 'section-'+section.Id()+'-faculty-'+$index()}" title="Show Office Hours" aria-label="Faculty Office Hours for Dr. Ghazanfer Bozai" id="section-294750-faculty-1">Dr. Ghazanfer Bozai</span> <br>
+                            <!-- /ko -->
+                        </div></td>
+                            <td class="esg-table-body__td--section-table" data-bind="text: section.AvailabilityDisplay(),  attr:{ id: 'availability-'+$index(), 'data-role': Ellucian.CatalogAdvancedSearch.AvailabilityHeader}" id="availability-0" data-role="Availability"><div class="layout-table-cell">13 / 18 / 0</div></td>
+                        <td class="esg-table-body__td--section-table" data-bind="text: section.CreditsDisplay(),  attr:{ id: 'credits-'+$index()}" id="credits-0" data-role="Credits"><div class="layout-table-cell">3.00000 Credits</div></td>
+                            <td class="esg-table-body__td--section-table" data-bind="attr:{id: 'comments-'+$index()}" id="comments-0" data-role="Comments"><div class="layout-table-cell">
+                                <span class="word-wrap" data-bind="html: shortComments, attr: { id: 'short-comments-' +$index() }" id="short-comments-0"></span>
+                                <span data-bind="visible: shortComments().length &lt; Comments().length, attr: { id: 'comments-ellipsis-' +$index() }" id="comments-ellipsis-0" style="display: none;"> ... </span>
+                                <!-- ko if: shortComments().length < Comments().length --><!-- /ko -->
+                            </div></td>
+                    </tr>
