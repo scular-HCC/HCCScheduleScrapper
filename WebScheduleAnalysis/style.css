@@ -1,0 +1,153 @@
+/* ======================================================
+   GLOBAL LAYOUT
+   ====================================================== */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #fafafa;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+/* ======================================================
+   SIDEBAR
+   ====================================================== */
+
+.sidebar {
+  width: 280px;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.sidebar h3 {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 1em;
+}
+
+.sidebar button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+/* ======================================================
+   CLASS CHECKBOX LIST
+   ====================================================== */
+
+.class-list {
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 6px;
+  background-color: #fff;
+}
+
+.class-item {
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+/* ======================================================
+   CONFLICT SIDEBAR
+   ====================================================== */
+
+#conflicts {
+  margin-top: 10px;
+  font-size: 0.85em;
+  line-height: 1.3em;
+}
+
+/* ======================================================
+   CALENDAR CONTAINER
+   ====================================================== */
+
+.calendar-container {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+/* ======================================================
+   FULLCALENDAR BASELINE TWEAKS
+   ====================================================== */
+
+.fc {
+  font-size: 0.85em;
+}
+
+.fc-event {
+  z-index: 10; /* normal class events */
+}
+
+.fc-timegrid-event {
+  border-radius: 4px;
+}
+
+/* ======================================================
+   CONFLICT OVERLAYS — FOREGROUND FLASHING
+   ====================================================== */
+
+/* Pulse animation */
+@keyframes conflictPulse {
+  0%   { opacity: 0.25; }
+  50%  { opacity: 0.8; }
+  100% { opacity: 0.25; }
+}
+
+/*
+  IMPORTANT:
+  FullCalendar v6 paints visible content inside nested elements.
+  Using ::before ensures the overlay is ALWAYS visible
+  regardless of FC internal styles.
+*/
+
+.fc-event.conflict-overlay {
+  position: relative;
+  z-index: 9999 !important;
+  pointer-events: none; /* allow clicking through */
+}
+
+/* Actual visible flashing layer */
+.fc-event.conflict-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-color: red;
+  opacity: 0.4;
+
+  border: 2px solid red;
+  box-sizing: border-box;
+
+  animation: conflictPulse 1.2s infinite ease-in-out;
+
+  pointer-events: none;
+}
+
+/* ======================================================
+   ACCESSIBILITY — RESPECT REDUCED MOTION
+   ====================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .fc-event.conflict-overlay::before {
+    animation: none;
+    opacity: 0.5;
+  }
+}

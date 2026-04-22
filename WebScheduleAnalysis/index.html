@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HCC Weekly Schedule Planner</title>
+
+  <!-- ===== FullCalendar ===== -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css"
+  >
+  <script
+    src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js">
+  </script>
+
+  <!-- ===== PapaParse (CSV Parsing) ===== -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js">
+  </script>
+
+  <!-- ===== PDF Export ===== -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js">
+  </script>
+
+  <!-- ===== App Styles ===== -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>HCC Weekly Schedule Planner</h1>
+
+<div class="container">
+  <div class="sidebar">
+    <h3>Load Schedule CSV</h3>
+    <input type="file" id="csvInput" accept=".csv">
+
+    <h3>Select Classes</h3>
+<div id="classList" class="class-list"></div>
+
+<button id="buildBtn" disabled>Build Schedule</button>
+<button id="resetBtn" disabled>Reset</button>
+<button id="pdfBtn" disabled>Export PDF</button>
+
+<div id="conflicts"></div>
+  </div>
+
+  <div class="calendar-container">
+    <div id="calendar"></div>
+  </div>
+</div>
+
+<!-- ===== Your App Logic (MUST be last) ===== -->
+<script src="app.js"></script>
+
+</body>
+</html>
