@@ -296,3 +296,41 @@ function renderConflictSidebar(conflicts) {
     `;
   });
 }
+
+/*************************************************
+ * PDF EXPORT HANDLER (GUARANTEED DOWNLOAD)
+ *************************************************/
+pdfBtn.addEventListener("click", async () => {
+  console.log("Export PDF clicked");
+
+  try {
+    const element = document.body;
+
+    const opt = {
+      margin:       0.3,
+      filename:     "weekly_schedule.pdf",
+      html2canvas:  { scale: 2, useCORS: true },
+      jsPDF:        { unit: "in", format: "letter", orientation: "landscape" }
+    };
+
+    // Create the PDF
+    const worker = html2pdf().set(opt).from(element);
+    const blob = await worker.outputPdf("blob");
+
+    // Force download
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "weekly_schedule.pdf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    console.log("PDF download triggered");
+
+  } catch (err) {
+    console.error("PDF export failed:", err);
+    alert("PDF export failed — check the console.");
+  }
+});
