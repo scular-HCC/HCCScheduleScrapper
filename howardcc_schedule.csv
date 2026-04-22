@@ -1,5 +1,9 @@
 Term,Status,Section,Title,Dates,Location,InstructionalMethods,Meetings,Instructors,Availability,Credits,Comments
-Fall 2026,Open,ENES-100-001,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,Lecture; Lab; Recitation,"M 9:00-10:50 AM
+Fall 2026,Open,ENES-100-001,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab
+
+Recitation","M 9:00-10:50 AM
 8/24/2026 - 12/12/2026
 TCH 165 (LEC)
 W 9:00-10:50 AM
@@ -7,8 +11,13 @@ W 9:00-10:50 AM
 TCH 165 (LAB)
 Th 5:00-5:50 PM
 8/24/2026 - 12/12/2026
-TCH 101 (RCT); M 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 165 (LEC); W 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 165 (LAB); Th 5:00-5:50 PM; 8/24/2026 - 12/12/2026; TCH 101 (RCT)",Mr. Kevin D. Johnson; Dr. Ghazanfer Bozai,12 / 18 / 0,3.00000 Credits,
-Fall 2026,Open,ENES-100-002,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,Lecture; Lab; Recitation,"M 11:00 AM-12:50 PM
+TCH 101 (RCT)","Mr. Kevin D. Johnson
+Dr. Ghazanfer Bozai",12 / 18 / 0,3.00000 Credits,
+Fall 2026,Open,ENES-100-002,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab
+
+Recitation","M 11:00 AM-12:50 PM
 8/24/2026 - 12/12/2026
 TCH 165 (LEC)
 W 11:00 AM-12:50 PM
@@ -16,8 +25,12 @@ W 11:00 AM-12:50 PM
 TCH 165 (LAB)
 Th 5:00-5:50 PM
 8/24/2026 - 12/12/2026
-TCH 101 (RCT); M 11:00 AM-12:50 PM; 8/24/2026 - 12/12/2026; TCH 165 (LEC); W 11:00 AM-12:50 PM; 8/24/2026 - 12/12/2026; TCH 165 (LAB); Th 5:00-5:50 PM; 8/24/2026 - 12/12/2026; TCH 101 (RCT)",Dr. Ghazanfer Bozai,16 / 18 / 0,3.00000 Credits,
-Fall 2026,Open,ENES-100-003,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,Lecture; Lab; Recitation,"T 9:00-10:50 AM
+TCH 101 (RCT)",Dr. Ghazanfer Bozai,16 / 18 / 0,3.00000 Credits,
+Fall 2026,Open,ENES-100-003,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab
+
+Recitation","T 9:00-10:50 AM
 8/24/2026 - 12/12/2026
 TCH 165 (LEC)
 Th 9:00-10:50 AM
@@ -25,8 +38,13 @@ Th 9:00-10:50 AM
 TCH 165 (LAB)
 Th 5:00-5:50 PM
 8/24/2026 - 12/12/2026
-TCH 101 (RCT); T 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 165 (LEC); Th 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 165 (LAB); Th 5:00-5:50 PM; 8/24/2026 - 12/12/2026; TCH 101 (RCT)",Dr. Stefan Cular; Dr. Ghazanfer Bozai,14 / 18 / 0,3.00000 Credits,
-Fall 2026,Open,ENES-100-004,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,Lecture; Lab; Recitation,"T 11:00 AM-12:50 PM
+TCH 101 (RCT)","Dr. Stefan Cular
+Dr. Ghazanfer Bozai",14 / 18 / 0,3.00000 Credits,
+Fall 2026,Open,ENES-100-004,Intro to Engr Design,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab
+
+Recitation","T 11:00 AM-12:50 PM
 8/24/2026 - 12/12/2026
 TCH 165 (LEC)
 Th 11:00 AM-12:50 PM
@@ -34,26 +52,36 @@ Th 11:00 AM-12:50 PM
 TCH 165 (LAB)
 Th 5:00-5:50 PM
 8/24/2026 - 12/12/2026
-TCH 101 (RCT); T 11:00 AM-12:50 PM; 8/24/2026 - 12/12/2026; TCH 165 (LEC); Th 11:00 AM-12:50 PM; 8/24/2026 - 12/12/2026; TCH 165 (LAB); Th 5:00-5:50 PM; 8/24/2026 - 12/12/2026; TCH 101 (RCT)",Dr. Ghazanfer Bozai,17 / 18 / 0,3.00000 Credits,
-Fall 2026,Open,ENES-120-001,Statics,8/24/2026-12/12/2026,Main Campus,Lecture; Recitation,"M 1:00-2:50 PM
+TCH 101 (RCT)",Dr. Ghazanfer Bozai,17 / 18 / 0,3.00000 Credits,
+Fall 2026,Open,ENES-120-001,Statics,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Recitation","M 1:00-2:50 PM
 8/24/2026 - 12/12/2026
 TCH 401 (LEC)
 W 1:00-2:50 PM
 8/24/2026 - 12/12/2026
-TCH 401 (RCT); M 1:00-2:50 PM; 8/24/2026 - 12/12/2026; TCH 401 (LEC); W 1:00-2:50 PM; 8/24/2026 - 12/12/2026; TCH 401 (RCT)",,17 / 24 / 0,3.00000 Credits,
-Fall 2026,Open,ENES-202-001,Computing Fund Engr,8/24/2026-12/12/2026,Main Campus,Lecture; Lab,"F 5:30-7:20 PM
+TCH 401 (RCT)",,17 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,ENES-202-001,Computing Fund Engr,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab","F 5:30-7:20 PM
 8/24/2026 - 12/12/2026
 TCH 253 (LEC)
 F 7:30-9:20 PM
 8/24/2026 - 12/12/2026
-TCH 253 (LAB); F 5:30-7:20 PM; 8/24/2026 - 12/12/2026; TCH 253 (LEC); F 7:30-9:20 PM; 8/24/2026 - 12/12/2026; TCH 253 (LAB)",,19 / 24 / 0,3.00000 Credits,
-Fall 2026,Open,ENES-222-001,Disc Signal Analysis,8/24/2026-12/12/2026,Main Campus,Lecture; Lab,"M, W 1:00-2:20 PM
+TCH 253 (LAB)",,19 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,ENES-222-001,Disc Signal Analysis,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab","M, W 1:00-2:20 PM
 8/24/2026 - 12/12/2026
 TCH 253 (LEC)
 W 2:30-5:20 PM
 8/24/2026 - 12/12/2026
-TCH 253 (LAB); M, W 1:00-2:20 PM; 8/24/2026 - 12/12/2026; TCH 253 (LEC); W 2:30-5:20 PM; 8/24/2026 - 12/12/2026; TCH 253 (LAB)",,21 / 24 / 0,4.00000 Credits,
-Fall 2026,Open,ENES-246-001,Dig Logic Design/Lab,8/24/2026-12/12/2026,Main Campus,Lecture; Lab; Recitation,"T 9:00-10:50 AM
+TCH 253 (LAB)",,21 / 24 / 0,4.00000 Credits,
+Fall 2026,Open,ENES-246-001,Dig Logic Design/Lab,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab
+
+Recitation","T 9:00-10:50 AM
 8/24/2026 - 12/12/2026
 TCH 253 (LEC)
 Th 1:30-4:20 PM
@@ -61,190 +89,1310 @@ Th 1:30-4:20 PM
 TCH 253 (LAB)
 Th 9:00-10:50 AM
 8/24/2026 - 12/12/2026
-TCH 253 (RCT); T 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 253 (LEC); Th 1:30-4:20 PM; 8/24/2026 - 12/12/2026; TCH 253 (LAB); Th 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 253 (RCT)",,21 / 24 / 0,4.00000 Credits,
+TCH 253 (RCT)",,21 / 24 / 0,4.00000 Credits,
 Fall 2026,Open,ENES-250-001,Life Safety Analysis,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 5:30-6:50 PM
 8/24/2026 - 12/12/2026
-TCH 303 (LEC); T, Th 5:30-6:50 PM; 8/24/2026 - 12/12/2026; TCH 303 (LEC)",,23 / 24 / 0,3.00000 Credits,
-Fall 2026,Open,ENES-271-001,Appl Numerical Mthds,8/24/2026-12/12/2026,Main Campus,Lecture; Lab,"M 9:00-10:50 AM
+TCH 303 (LEC)",,23 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,ENES-271-001,Appl Numerical Mthds,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Lab","M 9:00-10:50 AM
 8/24/2026 - 12/12/2026
 TCH 253 (LEC)
 W 9:00-10:50 AM
 8/24/2026 - 12/12/2026
-TCH 253 (LAB); M 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 253 (LEC); W 9:00-10:50 AM; 8/24/2026 - 12/12/2026; TCH 253 (LAB)",,21 / 24 / 0,3.00000 Credits,
+TCH 253 (LAB)",,21 / 24 / 0,3.00000 Credits,
 Fall 2026,Open,MATH-010-100,Foundations of Math,8/24/2026-10/12/2026,Main Campus,Lecture,"M, T, W, Th 8:00-9:30 AM
-8/24/2026 - 10/12/2026
-KC 102 (LEC); M, T, W, Th 8:00-9:30 AM; 8/24/2026 - 10/12/2026; KC 102 (LEC)",Ms. Jean M. Ragin,25 / 26 / 0,3.00000 Credits,
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 102 (LEC)",Ms. Jean M. Ragin,25 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-101,Foundations of Math,8/24/2026-10/12/2026,Main Campus,Lecture,"M, T, W, Th 10:00-11:30 AM
-8/24/2026 - 10/12/2026
-KC 102 (LEC); M, T, W, Th 10:00-11:30 AM; 8/24/2026 - 10/12/2026; KC 102 (LEC)",Ms. Allison R. Bell,25 / 26 / 0,3.00000 Credits,
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 102 (LEC)",Ms. Allison R. Bell,25 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-102,Foundations of Math,8/24/2026-10/12/2026,Main Campus,Lecture,"M, T, W, Th 12:00-1:30 PM
-8/24/2026 - 10/12/2026
-KC 102 (LEC); M, T, W, Th 12:00-1:30 PM; 8/24/2026 - 10/12/2026; KC 102 (LEC)",Ms. Ann M. Ventre,24 / 26 / 0,3.00000 Credits,
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 102 (LEC)",Ms. Ann M. Ventre,24 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-103,Foundations of Math,8/24/2026-10/12/2026,Main Campus,Lecture,"M, T, W, Th 2:00-3:30 PM
-8/24/2026 - 10/12/2026
-KC 102 (LEC); M, T, W, Th 2:00-3:30 PM; 8/24/2026 - 10/12/2026; KC 102 (LEC)",Ms. Sunithi Khanna,23 / 26 / 0,3.00000 Credits,
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 102 (LEC)",Ms. Sunithi Khanna,23 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-105,Foundations of Math,8/24/2026-10/12/2026,Main Campus,Lecture,"M, W 6:00-8:50 PM
-8/24/2026 - 10/12/2026
-KC 102 (LEC); M, W 6:00-8:50 PM; 8/24/2026 - 10/12/2026; KC 102 (LEC)",Mr. Darin J. Segal,25 / 26 / 0,3.00000 Credits,
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 102 (LEC)",Mr. Darin J. Segal,25 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-106,Foundations of Math,8/24/2026-10/12/2026,Main Campus,Lecture,"T, Th 6:00-8:50 PM
-8/24/2026 - 10/12/2026
-KC 102 (LEC); T, Th 6:00-8:50 PM; 8/24/2026 - 10/12/2026; KC 102 (LEC)",Mr. Scott W. Austin,26 / 26 / 0,3.00000 Credits,
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 102 (LEC)",Mr. Scott W. Austin,26 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-200,Foundations of Math,10/21/2026-12/12/2026,Main Campus,Lecture,"M, T, W, Th 8:00-9:30 AM
-10/21/2026 - 12/12/2026
-KC 102 (LEC); M, T, W, Th 8:00-9:30 AM; 10/21/2026 - 12/12/2026; KC 102 (LEC)",Ms. Jean M. Ragin,26 / 26 / 0,3.00000 Credits,
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 102 (LEC)",Ms. Jean M. Ragin,26 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-201,Foundations of Math,10/21/2026-12/12/2026,Main Campus,Lecture,"M, T, W, Th 10:00-11:30 AM
-10/21/2026 - 12/12/2026
-KC 102 (LEC); M, T, W, Th 10:00-11:30 AM; 10/21/2026 - 12/12/2026; KC 102 (LEC)",Ms. Allison R. Bell,26 / 26 / 0,3.00000 Credits,
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 102 (LEC)",Ms. Allison R. Bell,26 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-202,Foundations of Math,10/21/2026-12/12/2026,Main Campus,Lecture,"M, T, W, Th 12:00-1:30 PM
-10/21/2026 - 12/12/2026
-KC 102 (LEC); M, T, W, Th 12:00-1:30 PM; 10/21/2026 - 12/12/2026; KC 102 (LEC)",Ms. Ann M. Ventre,26 / 26 / 0,3.00000 Credits,
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 102 (LEC)",Ms. Ann M. Ventre,26 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-203,Foundations of Math,10/21/2026-12/12/2026,Main Campus,Lecture,"M, T, W, Th 2:00-3:30 PM
-10/21/2026 - 12/12/2026
-KC 102 (LEC); M, T, W, Th 2:00-3:30 PM; 10/21/2026 - 12/12/2026; KC 102 (LEC)",Ms. Sunithi Khanna,26 / 26 / 0,3.00000 Credits,
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 102 (LEC)",Ms. Sunithi Khanna,26 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-205,Foundations of Math,10/21/2026-12/12/2026,Main Campus,Lecture,"M, W 6:00-8:50 PM
-10/21/2026 - 12/12/2026
-KC 102 (LEC); M, W 6:00-8:50 PM; 10/21/2026 - 12/12/2026; KC 102 (LEC)",Mr. Darin J. Segal,26 / 26 / 0,3.00000 Credits,
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 102 (LEC)",Mr. Darin J. Segal,26 / 26 / 0,3.00000 Credits,...
 Fall 2026,Open,MATH-010-206,Foundations of Math,10/21/2026-12/12/2026,Main Campus,Lecture,"T, Th 6:00-8:50 PM
-10/21/2026 - 12/12/2026
-KC 102 (LEC); T, Th 6:00-8:50 PM; 10/21/2026 - 12/12/2026; KC 102 (LEC)",Mr. Scott W. Austin,26 / 26 / 0,3.00000 Credits,
-Fall 2026,Open,MATH-027-600,Concepts Math Support,8/24/2026-12/12/2026,Main Campus,Hybrid 50 (Online)/50 (F2F); Online Hybrid,"M 5:00-5:50 PM
-8/24/2026 - 12/12/2026
-KC 104 (HYB)
-W 5:00-5:50 PM
-8/24/2026 - 12/12/2026
-WEB CANVAS (OLHY); M 5:00-5:50 PM; 8/24/2026 - 12/12/2026; KC 104 (HYB); W 5:00-5:50 PM; 8/24/2026 - 12/12/2026; WEB CANVAS (OLHY)",Mr. Eric Granahan,12 / 12 / 0,2.00000 Credits,This is a hybri ... more
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 102 (LEC)",Mr. Scott W. Austin,26 / 26 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-027-600,Concepts Math Support,8/24/2026-12/12/2026,Main Campus,"Hybrid 50 (Online)/50 (F2F)
+                            
+                                Online Hybrid","M 5:00-5:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 104 (HYB)
+                        
+                            
+                        
+                            W 5:00-5:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (OLHY)",Mr. Eric Granahan,12 / 12 / 0,2.00000 Credits,"This is a hybri
+                                 ... 
+                                
+                                more"
 Fall 2026,Open,MATH-032-L001,Math Literacy Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:20 AM
-8/24/2026 - 12/12/2026
-KC 117 (LEC); M, W 9:30-10:20 AM; 8/24/2026 - 12/12/2026; KC 117 (LEC)",Ms. Cristina M. Linsenmeyer,15 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (LEC)",Ms. Cristina M. Linsenmeyer,15 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-032-L002,Math Literacy Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00-11:50 AM
-8/24/2026 - 12/12/2026
-KC 209 (LEC); M, W 11:00-11:50 AM; 8/24/2026 - 12/12/2026; KC 209 (LEC)",Ms. Cristina M. Linsenmeyer,17 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 209 (LEC)",Ms. Cristina M. Linsenmeyer,17 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-032-L003,Math Literacy Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:20 PM
-8/24/2026 - 12/12/2026
-KC 117 (LEC); M, W 12:30-1:20 PM; 8/24/2026 - 12/12/2026; KC 117 (LEC)",Ms. Cristina M. Linsenmeyer,17 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (LEC)",Ms. Cristina M. Linsenmeyer,17 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-032-L005,Math Literacy Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 5:30-6:20 PM
-8/24/2026 - 12/12/2026
-KC 112 (LEC); T, Th 5:30-6:20 PM; 8/24/2026 - 12/12/2026; KC 112 (LEC)",Mr. Kelvin Woods,18 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 112 (LEC)",Mr. Kelvin Woods,18 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-038-L004,Statistics Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 10:00-10:50 AM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); T, Th 10:00-10:50 AM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",Ms. Greta R. Holtackers Cannon,2 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Ms. Greta R. Holtackers Cannon,2 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-038-L005,Statistics Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00-11:50 AM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); T, Th 11:00-11:50 AM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",,13 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",,13 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-038-L007,Statistics Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-12:50 PM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); T, Th 12:00-12:50 PM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",Ms. Allison R. Bell,11 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Ms. Allison R. Bell,11 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-038-L008,Statistics Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 1:00-1:50 PM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); T, Th 1:00-1:50 PM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",Ms. Amy S. Curran,12 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Ms. Amy S. Curran,12 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-038-L010,Statistics Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-2:50 PM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); T, Th 2:00-2:50 PM; 8/24/2026 - 12/12/2026; KC 108 (LEC)","Mr. Louis W. Fritz, V",17 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)","Mr. Louis W. Fritz, V",17 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-038-L011,Statistics Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 3:00-3:50 PM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); T, Th 3:00-3:50 PM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",,16 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",,16 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-038-L013,Statistics Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 8:00-8:50 PM
-8/24/2026 - 12/12/2026
-KC 115 (LEC); T, Th 8:00-8:50 PM; 8/24/2026 - 12/12/2026; KC 115 (LEC)",Mr. Darin J. Segal,2 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 115 (LEC)",Mr. Darin J. Segal,2 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-041-L002,College Alg Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00-11:50 AM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); M, W 11:00-11:50 AM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",Ms. Sunithi Khanna,13 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Ms. Sunithi Khanna,13 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-041-L003,College Alg Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:00-12:50 PM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); M, W 12:00-12:50 PM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",,18 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",,18 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-041-L004,College Alg Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 3:00-3:50 PM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); M, W 3:00-3:50 PM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",Dr. Jamshaid A. Shahir,16 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Dr. Jamshaid A. Shahir,16 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-041-L005,College Alg Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 6:00-6:50 PM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); T, Th 6:00-6:50 PM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",Mr. Eugene Rose,15 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Mr. Eugene Rose,15 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-041-L006,College Alg Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 8:00-8:50 AM
-8/24/2026 - 12/12/2026
-KC 108 (LEC); M, W 8:00-8:50 AM; 8/24/2026 - 12/12/2026; KC 108 (LEC)",Mr. John C. Esenwa,17 / 18 / 0,2.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Mr. John C. Esenwa,17 / 18 / 0,2.00000 Credits,...
 Fall 2026,Open,MATH-043-L002,Precalculus I Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:20 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 111 (LEC)",Dr. Kristy Vernille Blocklin,17 / 18 / 0,2.00000 Credits,...
+Fall 2026,Open,MATH-043-L004,Precalculus I Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 111 (LEC)",Ms. Jean M. Ragin,14 / 18 / 0,2.00000 Credits,...
+Fall 2026,Open,MATH-043-L006,Precalculus I Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 111 (LEC)",Dr. Kristy Vernille Blocklin,16 / 18 / 0,2.00000 Credits,...
+Fall 2026,Open,MATH-043-L008,Precalculus I Support,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 2:00-2:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 111 (LEC)",Ms. Jean M. Ragin,16 / 18 / 0,2.00000 Credits,...
+Fall 2026,Open,MATH-043-L010,Precalculus I Support,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 5:30-6:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 113 (LEC)",Ms. Bita Parniani,18 / 18 / 0,2.00000 Credits,...
+Fall 2026,Open,MATH-127-001,Concepts of Math I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 205 (LEC)",Ms. Kaitlyn E. Butler,21 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-127-300,Concepts of Math I,8/24/2026-12/12/2026,Scheduled Zoom,Online,"T, Th 5:30-7:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Ms. Brittany M. Alexander,23 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-128-001,Concepts of Math II,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 114 (LEC)",Ms. Ann M. Ventre,23 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-129-300,Concepts of Math III,8/24/2026-12/12/2026,Scheduled Zoom,Online,"M, W 6:30-8:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Mr. Eric Granahan,20 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-132-004,Mathematical Literacy,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 112 (LEC)",Ms. Anu Rishi,23 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-132-011,Mathematical Literacy,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-3:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 112 (LEC)",Ms. Anu Rishi,23 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-132-300,Mathematical Literacy,8/24/2026-12/12/2026,Scheduled Zoom,Online,"M, W 6:30-7:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Ms. Faye P. Merritt,24 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-132-L001,Mathematical Literacy,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (LEC)",Ms. Mona Kamal,15 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-132-L002,Mathematical Literacy,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 209 (LEC)",Mr. Michael Thompson,17 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-132-L003,Mathematical Literacy,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:30-1:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (LEC)",Ms. Mary Ellen D. Henderson,17 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-132-L005,Mathematical Literacy,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 6:30-7:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 112 (LEC)",Mr. Kelvin Woods,18 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-138-001,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 8:00-9:20 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 335 (LEC)",Shaila Sharmin,13 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-002,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 8:00-9:20 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 215 (LEC)",Mr. Michael O. Nyagol,12 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-004,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 9:30-10:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 335 (LEC)",Dr. Carol L. Howald,4 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-005,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 9:30-10:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 118 (LEC)",,19 / 24 / 0,4.00000 Credits,...
+Fall 2026,Waitlisted,MATH-138-007,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 11:00 AM-12:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 335 (LEC)",Dr. Carol L. Howald,0 / 24 / 1,4.00000 Credits,...
+Fall 2026,Open,MATH-138-008,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 11:00 AM-12:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 211 (LEC)",,17 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-009,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 11:00 AM-12:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 118 (LEC)",Shaila Sharmin,23 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-017,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 112 (LEC)",Ms. Anu Rishi,18 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-019,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 116 (LEC)",Dr. Ahmed Benkhalti,24 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-020,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 325 (LEC)",Ms. Mona Kamal,19 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-023,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 213 (LEC)",Dr. Kristy Vernille Blocklin,21 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-025,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 8:00-9:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 325 (LEC)","Mr. Louis W. Fritz, V",21 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-029,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 335 (LEC)",Dr. Carol L. Howald,6 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-030,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 211 (LEC)",Ms. Mary Ellen D. Henderson,24 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-031,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 211 (LEC)",Mr. Michael O. Nyagol,24 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-032,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 325 (LEC)",Dr. Ahmed Benkhalti,23 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-035,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 211 (LEC)",Mr. Michael O. Nyagol,20 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-300,Statistics,8/24/2026-12/12/2026,Scheduled Zoom,Online,"M, W 6:00-7:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Dr. Hasna Banu,17 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-302,Statistics,8/24/2026-12/12/2026,Scheduled Zoom,Online,"T, Th 6:00-7:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Dr. Hasna Banu,17 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Waitlisted,MATH-138-304,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Greta R. Holtackers Cannon,0 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Waitlisted,MATH-138-305,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Greta R. Holtackers Cannon,0 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Waitlisted,MATH-138-306,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Mona Kamal,0 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-307,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Mona Kamal,9 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Waitlisted,MATH-138-308,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Todd D. Mateer,0 / 24 / 2,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-309,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Anu Rishi,22 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Waitlisted,MATH-138-310,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Allison R. Bell,0 / 24 / 2,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-311,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Kaitlyn E. Butler,24 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-312,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Kaitlyn E. Butler,21 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Waitlisted,MATH-138-313,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Todd D. Mateer,0 / 24 / 1,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-314,Statistics,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Fariba A. Roozbehi,24 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-400,Statistics,8/24/2026-10/12/2026,Online,Online,"8/24/2026 - 10/12/2026
+                        
+                             (ONL)",Anson Xuan,21 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-500,Statistics,10/21/2026-12/12/2026,Online,Online,"10/21/2026 - 12/12/2026
+                        
+                             (ONL)",Anson Xuan,24 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-501,Statistics,10/21/2026-12/12/2026,Online,Online,"10/21/2026 - 12/12/2026
+                        
+                             (ONL)",Dr. James N. Gartside,22 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-138-700,Statistics,8/24/2026-10/12/2026,Main Campus,Hybrid 50 (Online)/50 (F2F),"M, W 10:00-11:50 AM
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 325 (HYB)",Mr. Lamont D. Vaughan,23 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-800,Statistics,10/21/2026-12/12/2026,Main Campus,Hybrid 50 (Online)/50 (F2F),"M, W 10:00-11:50 AM
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 325 (HYB)",Mr. Lamont D. Vaughan,24 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-807,Statistics,10/21/2026-12/12/2026,Main Campus,Hybrid 50 (Online)/50 (F2F),"M, W 6:00-7:50 PM
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 325 (HYB)",Ms. Connie B. Mangaoil,24 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-L004,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 115 (LEC)",Ms. Greta R. Holtackers Cannon,2 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-L005,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 215 (LEC)",Mr. Michael O. Nyagol,13 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-L007,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 115 (LEC)",Ms. Allison R. Bell,11 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-L008,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 215 (LEC)",Ms. Amy S. Curran,12 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-L010,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 211 (LEC)","Mr. Louis W. Fritz, V",17 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-L011,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 115 (LEC)",,16 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-138-L013,Statistics,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 6:00-7:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 115 (LEC)",Ms. Connie B. Mangaoil,2 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-002,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 9:30-10:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 114 (LEC)",,20 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-009,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 205 (LEC)",Ms. Rehana Yusaf,16 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-011,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 8:00-9:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 203 (LEC)",Dr. Gabriel B. Ayine,19 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-013,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 203 (LEC)",Dr. Gabriel B. Ayine,19 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-303,College Algebra,8/24/2026-12/12/2026,Scheduled Zoom,Online,"T, Th 6:00-7:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Mr. Barry E. Brown,16 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-141-304,College Algebra,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Dr. Caroline E. Torcaso,14 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-141-400,College Algebra,8/24/2026-10/12/2026,Scheduled Zoom,Online,"M, T, W, Th 12:00-1:50 PM
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            WEB CANVAS (ONL)",Mr. Armando J. Espejo,22 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-141-401,College Algebra,8/24/2026-10/12/2026,Online,Online,"8/24/2026 - 10/12/2026
+                        
+                             (ONL)",Mr. William D. Meeks,21 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-141-500,College Algebra,10/21/2026-12/12/2026,Scheduled Zoom,Online,"M, T, W, Th 12:00-1:50 PM
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Mr. Armando J. Espejo,20 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-141-501,College Algebra,10/21/2026-12/12/2026,Online,Online,"10/21/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. William D. Meeks,21 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-141-L002,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 116 (LEC)",,13 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-L003,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 116 (LEC)",,18 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-L004,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 209 (LEC)",Dr. Jamshaid A. Shahir,16 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-L005,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 7:00-8:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 108 (LEC)",Mr. Eugene Rose,15 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-141-L006,College Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 8:00-9:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 114 (LEC)",Mr. John C. Esenwa,17 / 18 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-143-001,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 8:00-9:15 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 213 (LEC)",Ms. Kimberly A. Triplett,22 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-002,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 213 (LEC)",Dr. Caroline E. Torcaso,23 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-003,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 114 (LEC)",Dr. Gabriel B. Ayine,23 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-004,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 213 (LEC)",Dr. Sunhee Kim,21 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-009,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 213 (LEC)",Dr. Caroline E. Torcaso,21 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-010,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:30-1:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 213 (LEC)",Mr. Lamont D. Vaughan,24 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-100,Precalculus I,8/24/2026-10/12/2026,Main Campus,Lecture,"M, W, F 10:30 AM-12:20 PM
+                        
+                            8/24/2026 - 10/12/2026
+                        
+                            KC 203 (LEC)",Ms. Debra A. Hensgen,23 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-300,Precalculus I,8/24/2026-12/12/2026,Scheduled Zoom,Online,"T, Th 6:30-7:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Ms. Mary De Armas,21 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-143-304,Precalculus I,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Guy G. Bunyard,22 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-143-305,Precalculus I,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Guy G. Bunyard,24 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-143-H602,Precalculus I HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+                            
+                                Online Discussion","M, W 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 213 (LEC)
+                        
+                            
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                             (ONDIS)","Dr. Caroline E. Torcaso 
+                            
+                        
+                            
+                            
+                            Mr. A. Vaughn Winchell",23 / 24 / 0,3.00000 Credits,"This is an Hono
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-143-L002,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 111 (LEC)",Dr. Kristy Vernille Blocklin,17 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-L004,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 113 (LEC)",Mr. Roderico De Armas,14 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-L006,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:30-1:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 111 (LEC)",Dr. Kristy Vernille Blocklin,16 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-L008,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-3:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 113 (LEC)",Dr. Ahmed Benkhalti,16 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-143-L010,Precalculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 6:30-7:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 113 (LEC)",Mr. Rolandrias Bradford,18 / 18 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-145-002,Business Calculus,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 113 (LEC)",Mr. John C. Esenwa,20 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-145-005,Business Calculus,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 2:00-3:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 215 (LEC)",Ms. Rehana Yusaf,15 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-145-007,Business Calculus,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 8:00-9:15 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 215 (LEC)",Mr. Robert W. Karkoska,19 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-145-304,Business Calculus,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Rehana Yusaf,20 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-145-307,Business Calculus,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Michael O. Nyagol,20 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-145-500,Business Calculus,10/21/2026-12/12/2026,Online,Online,"10/21/2026 - 12/12/2026
+                        
+                             (ONL)",Dr. Jamshaid A. Shahir,22 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-153-002,Precalculus II,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 209 (LEC)",Mr. Joseph C. Stassi,20 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-153-008,Precalculus II,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 205 (LEC)",Dr. Jane H. Wenstrom,20 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-153-200,Precalculus II,10/21/2026-12/12/2026,Main Campus,Lecture,"M, W, F 10:30 AM-12:20 PM
+                        
+                            10/21/2026 - 12/12/2026
+                        
+                            KC 203 (LEC)",Ms. Debra A. Hensgen,23 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,MATH-153-304,Precalculus II,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Dr. Sunhee Kim,20 / 24 / 0,3.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-153-H602,Precalculus II HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+                            
+                                Online Discussion","M, W 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 209 (LEC)
+                        
+                            
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                             (ONDIS)","Mr. Joseph C. Stassi 
+                            
+                        
+                            
+                            
+                            Mr. A. Vaughn Winchell",20 / 24 / 0,3.00000 Credits,"This is an Hono
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-181-001,Calculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 8:00-9:20 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (LEC)",Mr. Lamont D. Vaughan,22 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-181-003,Calculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 9:30-10:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (LEC)",Ms. Mary Ellen D. Henderson,18 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-181-005,Calculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 11:00 AM-12:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 204 (LEC)",Ms. Mary Ellen D. Henderson,22 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-181-011,Calculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (LEC)",,24 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-181-014,Calculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (LEC)",Dr. Gabriel B. Ayine,21 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-181-016,Calculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (LEC)",Ms. Mona Kamal,21 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-181-018,Calculus I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (LEC)",Ms. Christel J. Wohlafka,16 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-181-300,Calculus I,8/24/2026-12/12/2026,Scheduled Zoom,Online,"M, W 6:00-7:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Mr. Rolandrias Bradford,21 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-181-304,Calculus I,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Dr. Caroline E. Torcaso,24 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-181-305,Calculus I,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Dr. Sunhee Kim,21 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-181-H003,Calculus I HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+                            
+                                Discussion","M, W, F 9:30-10:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (LEC)
+                        
+                            
+                        
+                            F 11:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 202 (DIS)","Ms. Mary Ellen D. Henderson 
+                            
+                        
+                            
+                            
+                            Mr. A. Vaughn Winchell",18 / 24 / 0,4.00000 Credits,"This is an Hono
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-182-001,Calculus II,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 8:00-9:20 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (LEC)",Dr. Jane H. Wenstrom,14 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-182-003,Calculus II,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 11:00 AM-12:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (LEC)",Dr. Jane H. Wenstrom,17 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-182-010,Calculus II,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 10:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 325 (LEC)",Mr. John C. Esenwa,19 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-182-012,Calculus II,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-3:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 325 (LEC)",Mr. John C. Esenwa,24 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,MATH-182-302,Calculus II,8/24/2026-12/12/2026,Scheduled Zoom,Online,"T, Th 6:00-7:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Dr. Ahmed Benkhalti,24 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-182-304,Calculus II,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Guy G. Bunyard,20 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-182-305,Calculus II,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Guy G. Bunyard,21 / 24 / 0,4.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-182-H001,Calculus II HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+                            
+                                Discussion","M, W, F 8:00-9:20 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (LEC)
+                        
+                            
+                        
+                            F 9:30-10:20 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KC 117 (DIS)",Dr. Jane H. Wenstrom,14 / 24 / 0,4.00000 Credits,"This is an Hono
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-199-300,Intro to Matlab,8/24/2026-12/12/2026,Scheduled Zoom,Online,"Th 8:00-8:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            WEB CANVAS (ONL)",Dr. Kenny A. Diaz Eguigure,23 / 24 / 0,1.00000 Credits,"This is an onli
+                                 ... 
+                                
+                                more"
+Fall 2026,Open,MATH-220-002,Discrete Structures,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
 8/24/2026 - 12/12/2026
-KC 111 (LEC); M, W 9:30-10:20 AM; 8/24/2026 - 12/12/2026; KC 111 (LEC)",Dr. Kristy Vernille Blocklin,17 / 18 / 0,2.00000 Credits,
+KC 211 (LEC)","Mr. Louis W. Fritz, V",22 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,MATH-220-010,Discrete Structures,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 2:00-3:15 PM
+8/24/2026 - 12/12/2026
+KC 213 (LEC)",Dr. Carol L. Howald,21 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,MATH-220-300,Discrete Structures,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+(ONL)",Mr. Michael Thompson,22 / 24 / 0,3.00000 Credits,This is an onli ... more
+Fall 2026,Open,MATH-220-H002,Discrete Structures HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Discussion","M, W 9:30-10:45 AM
+8/24/2026 - 12/12/2026
+KC 211 (LEC)
+W 8:30-9:20 AM
+8/24/2026 - 12/12/2026
+KC 211 (DIS)","Mr. Louis W. Fritz, V
+Ms. Debra A. Hensgen",12 / 24 / 0,3.00000 Credits,This is an Hono ... more
+Fall 2026,Open,MATH-240-003,Calculus III,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W, F 11:00 AM-12:20 PM
+8/24/2026 - 12/12/2026
+KC 113 (LEC)","Mr. Louis W. Fritz, V",22 / 24 / 0,4.00000 Credits,
+Fall 2026,Open,MATH-240-011,Calculus III,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-1:50 PM
+8/24/2026 - 12/12/2026
+KC 115 (LEC)",Mr. Robert W. Karkoska,24 / 24 / 0,4.00000 Credits,
+Fall 2026,Open,MATH-240-303,Calculus III,8/24/2026-12/12/2026,Scheduled Zoom,Online,"T, Th 6:00-7:50 PM
+8/24/2026 - 12/12/2026
+WEB CANVAS (ONL)",Mr. Armando J. Espejo,16 / 24 / 0,4.00000 Credits,This is an onli ... more
+Fall 2026,Open,MATH-240-H003,Calculus III HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Discussion","M, W, F 11:00 AM-12:20 PM
+8/24/2026 - 12/12/2026
+KC 113 (LEC)
+F 10:00-10:50 AM
+8/24/2026 - 12/12/2026
+KC 113 (DIS)","Mr. Louis W. Fritz, V",20 / 24 / 0,4.00000 Credits,This is an Hono ... more
+Fall 2026,Open,MATH-250-003,Linear Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 10:00-11:50 AM
+8/24/2026 - 12/12/2026
+KC 212 (LEC)",Dr. Sunhee Kim,22 / 24 / 0,4.00000 Credits,
+Fall 2026,Open,MATH-250-007,Linear Algebra,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:00-1:50 PM
+8/24/2026 - 12/12/2026
+KC 212 (LEC)",Dr. Sunhee Kim,17 / 24 / 0,4.00000 Credits,
+Fall 2026,Open,MATH-250-302,Linear Algebra,8/24/2026-12/12/2026,Scheduled Zoom,Online,"M, W 6:00-7:50 PM
+8/24/2026 - 12/12/2026
+WEB CANVAS (ONL)",Mr. Edison Juleau,16 / 24 / 0,4.00000 Credits,This is an onli ... more
+Fall 2026,Open,MATH-250-H302,Linear Algebra HN,8/24/2026-12/12/2026,Scheduled Zoom,"Online
+
+Online Discussion","M, W 6:00-7:50 PM
+8/24/2026 - 12/12/2026
+WEB CANVAS (ONL)
+8/24/2026 - 12/12/2026
+(ONDIS)",Mr. Edison Juleau,16 / 24 / 0,4.00000 Credits,This is an onli ... more
+Fall 2026,Open,MATH-250-H603,Linear Algebra HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Online Discussion","M, W 10:00-11:20 AM
+8/24/2026 - 12/12/2026
+KC 212 (LEC)
+8/24/2026 - 12/12/2026
+(ONDIS)",Dr. Sunhee Kim,22 / 24 / 0,4.00000 Credits,This is an Hono ... more
+Fall 2026,Open,MATH-250-H607,Linear Algebra HN,8/24/2026-12/12/2026,Main Campus,"Lecture
+
+Online Discussion","T, Th 12:00-1:50 PM
+8/24/2026 - 12/12/2026
+KC 212 (LEC)
+8/24/2026 - 12/12/2026
+(ONDIS)",Dr. Sunhee Kim,17 / 24 / 0,4.00000 Credits,This is an Hono ... more
+Fall 2026,Open,MATH-260-007,Differ Equations,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 9:30-10:45 AM
+8/24/2026 - 12/12/2026
+KC 215 (LEC)",Dr. Jane H. Wenstrom,18 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,MATH-260-600,Differ Equations,8/24/2026-12/12/2026,Main Campus,"Hybrid 50 (Online)/50 (F2F)
+
+Online Hybrid","Th 6:00-7:15 PM
+8/24/2026 - 12/12/2026
+KC 215 (HYB)
+T 6:00-7:15 PM
+8/24/2026 - 12/12/2026
+WEB CANVAS (OLHY)","Dr. David E. Hess, Ph.D.",19 / 24 / 0,3.00000 Credits,This is a combi ... more
 Fall 2026,Open,PHYS-101-001,Tech Physical Sci,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:45 PM
-8/24/2026 - 12/12/2026
-TCH 109 (LEC); M, W 12:30-1:45 PM; 8/24/2026 - 12/12/2026; TCH 109 (LEC)",Henderika van Huizen,20 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 109 (LEC)",Henderika van Huizen,20 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-101-002,Tech Physical Sci,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 9:30-10:45 AM
-8/24/2026 - 12/12/2026
-TCH 401 (LEC); T, Th 9:30-10:45 AM; 8/24/2026 - 12/12/2026; TCH 401 (LEC)",Dr. Bharathi Subramaniasiva,15 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 401 (LEC)",Dr. Bharathi Subramaniasiva,15 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-101-003,Tech Physical Sci,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:30-1:45 PM
-8/24/2026 - 12/12/2026
-TCH 211 (LEC); T, Th 12:30-1:45 PM; 8/24/2026 - 12/12/2026; TCH 211 (LEC)",Pamela McCarville,20 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 211 (LEC)",Pamela McCarville,20 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-101-300,Tech Physical Sci,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
-(ONL); 8/24/2026 - 12/12/2026; (ONL)",Pamela McCarville,13 / 24 / 0,4.00000 Credits,
+                        
+                             (ONL)",Pamela McCarville,13 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-101-301,Tech Physical Sci,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
-(ONL); 8/24/2026 - 12/12/2026; (ONL)",Dr. Bharathi Subramaniasiva,14 / 24 / 0,4.00000 Credits,
+                        
+                             (ONL)",Dr. Bharathi Subramaniasiva,14 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-101-302,Tech Physical Sci,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
-(ONL); 8/24/2026 - 12/12/2026; (ONL)",Dr. Bharathi Subramaniasiva,21 / 24 / 0,4.00000 Credits,
+                        
+                             (ONL)",Dr. Bharathi Subramaniasiva,21 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-101L-001,Tech Physical Sci Lab,8/24/2026-12/12/2026,Main Campus,Lab,"M 2:00-4:50 PM
-8/24/2026 - 12/12/2026
-TCH 154 (LAB); M 2:00-4:50 PM; 8/24/2026 - 12/12/2026; TCH 154 (LAB)",Henderika van Huizen,20 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 154 (LAB)",Henderika van Huizen,20 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-101L-002,Tech Physical Sci Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 11:00 AM-1:50 PM
-8/24/2026 - 12/12/2026
-TCH 154 (LAB); T 11:00 AM-1:50 PM; 8/24/2026 - 12/12/2026; TCH 154 (LAB)",Dr. Bharathi Subramaniasiva,15 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 154 (LAB)",Dr. Bharathi Subramaniasiva,15 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-101L-003,Tech Physical Sci Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 9:00-11:50 AM
-8/24/2026 - 12/12/2026
-TCH 154 (LAB); Th 9:00-11:50 AM; 8/24/2026 - 12/12/2026; TCH 154 (LAB)",Pamela McCarville,20 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 154 (LAB)",Pamela McCarville,20 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-101L-300,Tech Physical Sci Lab,8/24/2026-12/12/2026,Online,Online Lab,"8/24/2026 - 12/12/2026
-(ONLAB); 8/24/2026 - 12/12/2026; (ONLAB)",Pamela McCarville,13 / 24 / 0,0.00000 Credits,
+                        
+                             (ONLAB)",Pamela McCarville,13 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-101L-301,Tech Physical Sci Lab,8/24/2026-12/12/2026,Online,Online Lab,"8/24/2026 - 12/12/2026
-(ONLAB); 8/24/2026 - 12/12/2026; (ONLAB)",Dr. Bharathi Subramaniasiva,14 / 24 / 0,0.00000 Credits,
+                        
+                             (ONLAB)",Dr. Bharathi Subramaniasiva,14 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-101L-302,Tech Physical Sci Lab,8/24/2026-12/12/2026,Online,Online Lab,"8/24/2026 - 12/12/2026
-(ONLAB); 8/24/2026 - 12/12/2026; (ONLAB)",Dr. Bharathi Subramaniasiva,21 / 24 / 0,0.00000 Credits,
+                        
+                             (ONLAB)",Dr. Bharathi Subramaniasiva,21 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-103-001,Fund of Phys I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00 AM-12:15 PM
-8/24/2026 - 12/12/2026
-TCH 111 (LEC); M, W 11:00 AM-12:15 PM; 8/24/2026 - 12/12/2026; TCH 111 (LEC)",Rafael Mendonca,23 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 111 (LEC)",Rafael Mendonca,23 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-103L-001,Fund of Phys I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 11:00 AM-1:50 PM
-8/24/2026 - 12/12/2026
-TCH 150 (LAB); Th 11:00 AM-1:50 PM; 8/24/2026 - 12/12/2026; TCH 150 (LAB)",Rafael Mendonca,23 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 150 (LAB)",Rafael Mendonca,23 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-106-001,Earth & Space Sci,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 9:30-10:45 AM
-8/24/2026 - 12/12/2026
-TCH 111 (LEC); T, Th 9:30-10:45 AM; 8/24/2026 - 12/12/2026; TCH 111 (LEC)",Ms. Beth Dushman,22 / 24 / 0,4.00000 Credits,Kits with lab s ... more
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 111 (LEC)",Ms. Beth Dushman,22 / 24 / 0,4.00000 Credits,"Kits with lab s
+                                 ... 
+                                
+                                more"
 Fall 2026,Open,PHYS-106L-001,Earth & Space Sci Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 12:00-2:50 PM
-8/24/2026 - 12/12/2026
-TCH 160 (LAB); T 12:00-2:50 PM; 8/24/2026 - 12/12/2026; TCH 160 (LAB)",Ms. Beth Dushman,22 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 160 (LAB)",Ms. Beth Dushman,22 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-110-001,Gen Phys I Calc,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00 AM-12:15 PM
-8/24/2026 - 12/12/2026
-TCH 401 (LEC); M, W 11:00 AM-12:15 PM; 8/24/2026 - 12/12/2026; TCH 401 (LEC)",Dr. Brendan F. Diamond,19 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 401 (LEC)",Dr. Brendan F. Diamond,19 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-110-003,Gen Phys I Calc,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:30-1:45 PM
-8/24/2026 - 12/12/2026
-TCH 111 (LEC); T, Th 12:30-1:45 PM; 8/24/2026 - 12/12/2026; TCH 111 (LEC)",Dr. Anna D. DeJong,15 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 111 (LEC)",Dr. Anna D. DeJong,15 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-110-004,Gen Phys I Calc,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
-8/24/2026 - 12/12/2026
-TCH 303 (LEC); M, W 9:30-10:45 AM; 8/24/2026 - 12/12/2026; TCH 303 (LEC)",Dr. Brendan F. Diamond,22 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 303 (LEC)",Dr. Brendan F. Diamond,22 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-110-005,Gen Phys I Calc,8/24/2026-12/12/2026,Main Campus,Lecture,"W 6:30-9:20 PM
-8/24/2026 - 12/12/2026
-TCH 111 (LEC); W 6:30-9:20 PM; 8/24/2026 - 12/12/2026; TCH 111 (LEC)",Mr. Edwin X. Arroyo Felix,22 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 111 (LEC)",Mr. Edwin X. Arroyo Felix,22 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-110L-001,Gen Phys I Calc Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 2:00-4:50 PM
-8/24/2026 - 12/12/2026
-TCH 150 (LAB); W 2:00-4:50 PM; 8/24/2026 - 12/12/2026; TCH 150 (LAB)",Dr. Brendan F. Diamond,19 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 150 (LAB)",Dr. Brendan F. Diamond,19 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-110L-003,Gen Phys I Calc Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 2:00-4:50 PM
-8/24/2026 - 12/12/2026
-TCH 150 (LAB); T 2:00-4:50 PM; 8/24/2026 - 12/12/2026; TCH 150 (LAB)",Dr. Anna D. DeJong,15 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 150 (LAB)",Dr. Anna D. DeJong,15 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-110L-004,Gen Phys I Calc Lab,8/24/2026-12/12/2026,Main Campus,Lab,"M 2:00-4:50 PM
-8/24/2026 - 12/12/2026
-TCH 150 (LAB); M 2:00-4:50 PM; 8/24/2026 - 12/12/2026; TCH 150 (LAB)",Rafael Mendonca,22 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 150 (LAB)",Rafael Mendonca,22 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-110L-005,Gen Phys I Calc Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 2:00-4:50 PM
-8/24/2026 - 12/12/2026
-TCH 150 (LAB); Th 2:00-4:50 PM; 8/24/2026 - 12/12/2026; TCH 150 (LAB)",Dr. Anna D. DeJong,22 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 150 (LAB)",Dr. Anna D. DeJong,22 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-111-001,Gen Phys II Calc,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
-8/24/2026 - 12/12/2026
-TCH 203 (LEC); M, W 9:30-10:45 AM; 8/24/2026 - 12/12/2026; TCH 203 (LEC)",Dr. Anna D. DeJong,15 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 203 (LEC)",Dr. Anna D. DeJong,15 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-111-002,Gen Phys II Calc,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
-8/24/2026 - 12/12/2026
-KHH 113 (LEC); T, Th 11:00 AM-12:15 PM; 8/24/2026 - 12/12/2026; KHH 113 (LEC)",Dr. Mark F. Theiling,19 / 24 / 0,4.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KHH 113 (LEC)",Dr. Mark F. Theiling,19 / 24 / 0,4.00000 Credits,...
 Fall 2026,Open,PHYS-111L-001,Gen Phys II Calc Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 2:00-4:50 PM
-8/24/2026 - 12/12/2026
-TCH 153 (LAB); W 2:00-4:50 PM; 8/24/2026 - 12/12/2026; TCH 153 (LAB)",Dr. Anna D. DeJong,15 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 153 (LAB)",Dr. Anna D. DeJong,15 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-111L-002,Gen Phys II Calc Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 2:00-4:50 PM
-8/24/2026 - 12/12/2026
-TCH 153 (LAB); T 2:00-4:50 PM; 8/24/2026 - 12/12/2026; TCH 153 (LAB)",Dr. Mark F. Theiling,19 / 24 / 0,0.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 153 (LAB)",Dr. Mark F. Theiling,19 / 24 / 0,0.00000 Credits,...
 Fall 2026,Open,PHYS-112-001,Gen Phys III Calc,8/24/2026-12/12/2026,Main Campus,Lecture,"T 11:00 AM-12:50 PM
-8/24/2026 - 12/12/2026
-KHH 111 (LEC); T 11:00 AM-12:50 PM; 8/24/2026 - 12/12/2026; KHH 111 (LEC)",Dr. Brendan F. Diamond,20 / 24 / 0,3.00000 Credits,
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            KHH 111 (LEC)",Dr. Brendan F. Diamond,20 / 24 / 0,3.00000 Credits,...
 Fall 2026,Open,PHYS-112L-001,Gen Phys III Calc Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 11:00 AM-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 153 (LAB)",Dr. Brendan F. Diamond,20 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,PHYS-120-001,Oceanography,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00 AM-12:15 PM
 8/24/2026 - 12/12/2026
-TCH 153 (LAB); Th 11:00 AM-1:50 PM; 8/24/2026 - 12/12/2026; TCH 153 (LAB)",Dr. Brendan F. Diamond,20 / 24 / 0,0.00000 Credits,
+TCH 403 (LEC)",Ms. Beth Dushman,23 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,PHYS-120-002,Oceanography,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
+8/24/2026 - 12/12/2026
+TCH 401 (LEC)",Ms. Beth Dushman,21 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,PHYS-120-003,Oceanography,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+8/24/2026 - 12/12/2026
+TCH 107 (LEC)",Dr. Lance Jordan,23 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,PHYS-121-001,Oceanography Lab,8/24/2026-12/12/2026,Main Campus,Lab,"M 1:00-3:50 PM
+8/24/2026 - 12/12/2026
+TCH 160 (LAB)",Ms. Beth Dushman,20 / 24 / 0,1.00000 Credits,This hybrid lab ... more
+Fall 2026,Open,CHEM-101-001,Gen Inorganic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 209 (LEC)",Pamela McCarville,17 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-101-002,Gen Inorganic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 209 (LEC)",Dr. Qingyang Liu,8 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-101-004,Gen Inorganic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 209 (LEC)",Mr. Wei Xie,20 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-101-005,Gen Inorganic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 209 (LEC)",Mr. Wei Xie,20 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-101-006,Gen Inorganic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:30-1:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 209 (LEC)",Dr. Maria M. Escallon,21 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-101-011,Gen Inorganic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"M 6:30-9:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 209 (LEC)",Mr. Joseph C. Sparenberg,18 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-101L-001,Inorganic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"F 9:00-11:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 352 (LAB)",Pamela McCarville,17 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-101L-002,Inorganic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 2:00-4:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 352 (LAB)",Dr. Maria M. Escallon,8 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-101L-004,Inorganic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 11:00 AM-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 352 (LAB)",Ms. Rachel T. Ortiz,20 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-101L-005,Inorganic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 2:00-4:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 352 (LAB)",Mr. Wei Xie,20 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-101L-006,Inorganic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 2:00-4:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 352 (LAB)",Mr. Wei Xie,21 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-101L-011,Inorganic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 6:30-9:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 352 (LAB)",Mr. Joseph C. Sparenberg,18 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-102-001,Gen Inorganic Chem II,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 205 (LEC)",Dr. Maria M. Escallon,10 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-102L-001,Inorganic Chem II Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 2:00-4:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 350 (LAB)",Dr. Maria M. Escallon,10 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-103-001,Fund of Gen Chem,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 205 (LEC)",Ms. Rachel T. Ortiz,20 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-103-002,Fund of Gen Chem,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 401 (LEC)",Ms. Raluca Milinichik,11 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-103-003,Fund of Gen Chem,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 9:30-10:45 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 205 (LEC)",Mr. Joseph C. Sparenberg,23 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-103-600,Fund of Gen Chem,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Raluca Milinichik,2 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-103-601,Fund of Gen Chem,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Rachel T. Ortiz,11 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-103-602,Fund of Gen Chem,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Mr. Joseph C. Sparenberg,17 / 24 / 0,4.00000 Credits,...
+Fall 2026,Open,CHEM-103L-001,Fund of Gen Chem Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 11:00 AM-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 353 (LAB)",Mr. Daniel Carpenito,20 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-103L-002,Fund of Gen Chem Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 8:00-10:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 353 (LAB)",Mr. Daniel Carpenito,11 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-103L-003,Fund of Gen Chem Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 11:00 AM-1:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 353 (LAB)",Mr. Daniel Carpenito,23 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-103L-600,Fund of Gen Chem Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 8:00-10:50 AM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 353 (LAB)",Mr. Daniel Carpenito,2 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-103L-601,Fund of Gen Chem Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 6:30-9:20 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 353 (LAB)",Ms. Raluca Milinichik,11 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-103L-602,Fund of Gen Chem Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 2:00-4:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 353 (LAB)",Mr. Joseph C. Sparenberg,17 / 24 / 0,0.00000 Credits,...
+Fall 2026,Open,CHEM-105-001,Chem & Society,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:45 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 205 (LEC)",Ms. Raluca Milinichik,20 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,CHEM-105-300,Chem & Society,8/24/2026-12/12/2026,Online,Online,"8/24/2026 - 12/12/2026
+                        
+                             (ONL)",Ms. Rachel T. Ortiz,22 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,CHEM-115-001,Chem & Society Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 2:00-4:50 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 350 (LAB)",Ms. Raluca Milinichik,20 / 24 / 0,1.00000 Credits,...
+Fall 2026,Open,CHEM-135-001,Chem for Engr,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 11:00 AM-12:15 PM
+                        
+                            8/24/2026 - 12/12/2026
+                        
+                            TCH 303 (LEC)",Mr. Wei Xie,16 / 24 / 0,3.00000 Credits,...
+Fall 2026,Open,CHEM-135-002,Chem for Engr,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:45 PM
+8/24/2026 - 12/12/2026
+TCH 303 (LEC)",Mr. Wei Xie,19 / 24 / 0,3.00000 Credits,
+Fall 2026,Open,CHEM-136-001,Chem for Engr Lab,8/24/2026-12/12/2026,Main Campus,Lab,"M 2:00-4:50 PM
+8/24/2026 - 12/12/2026
+TCH 350 (LAB)",Mr. Wei Xie,18 / 24 / 0,1.00000 Credits,
+Fall 2026,Open,CHEM-201-001,Organic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"M, W 12:30-1:45 PM
+8/24/2026 - 12/12/2026
+TCH 203 (LEC)",Dr. Qingyang Liu,10 / 18 / 0,4.00000 Credits,
+Fall 2026,Open,CHEM-201-002,Organic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 11:00 AM-12:15 PM
+8/24/2026 - 12/12/2026
+TCH 203 (LEC)",Dr. Qingyang Liu,15 / 18 / 0,4.00000 Credits,
+Fall 2026,Open,CHEM-201-003,Organic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"T, Th 12:30-1:45 PM
+8/24/2026 - 12/12/2026
+TCH 203 (LEC)",Dr. Qingyang Liu,14 / 18 / 0,4.00000 Credits,
+Fall 2026,Open,CHEM-201-004,Organic Chem I,8/24/2026-12/12/2026,Main Campus,Lecture,"M 6:30-9:30 PM
+8/24/2026 - 12/12/2026
+TCH 203 (LEC)",Dr. Hany F. Sobhi,14 / 18 / 0,4.00000 Credits,
+Fall 2026,Open,CHEM-201L-001,Organic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"W 2:00-4:50 PM
+8/24/2026 - 12/12/2026
+TCH 450 (LAB)",Dr. Qingyang Liu,10 / 18 / 0,0.00000 Credits,
+Fall 2026,Open,CHEM-201L-002,Organic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 2:00-4:50 PM
+8/24/2026 - 12/12/2026
+TCH 450 (LAB)",Dr. Qingyang Liu,15 / 18 / 0,0.00000 Credits,
+Fall 2026,Open,CHEM-201L-003,Organic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 2:00-4:50 PM
+8/24/2026 - 12/12/2026
+TCH 450 (LAB)",Dr. Maria M. Escallon,14 / 18 / 0,0.00000 Credits,
+Fall 2026,Open,CHEM-201L-004,Organic Chem I Lab,8/24/2026-12/12/2026,Main Campus,Lab,"T 6:30-9:30 PM
+8/24/2026 - 12/12/2026
+TCH 450 (LAB)",Dr. Hany F. Sobhi,14 / 18 / 0,0.00000 Credits,
+Fall 2026,Open,CHEM-202-001,Organic Chem II,8/24/2026-12/12/2026,Main Campus,Lecture,"W 6:30-9:20 PM
+8/24/2026 - 12/12/2026
+TCH 209 (LEC)",Dr. Hany F. Sobhi,15 / 18 / 0,4.00000 Credits,
+Fall 2026,Open,CHEM-202L-001,Organic Chem II Lab,8/24/2026-12/12/2026,Main Campus,Lab,"Th 6:30-9:20 PM
+8/24/2026 - 12/12/2026
+TCH 452 (LAB)",Dr. Hany F. Sobhi,15 / 18 / 0,0.00000 Credits,

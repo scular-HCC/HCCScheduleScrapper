@@ -2,119 +2,105 @@ import csv
 import os
 from playwright.sync_api import sync_playwright
 
-# -----------------------------
+# -------------------------------------------------
 # CONFIG
-# -----------------------------
+# -------------------------------------------------
 SEARCH_URL = "https://colss-prod.ec.howardcc.edu/Student/Courses/"
+OUTPUT_CSV = os.path.join(os.path.dirname(__file__), "howardcc_schedule.csv")
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_CSV = os.path.join(BASE_DIR, "howardcc_schedule.csv")
-
-
-
-# -----------------------------
+# -------------------------------------------------
 # PARSE A SINGLE TABLE ROW
-# -----------------------------
+# -------------------------------------------------
 def parse_row(tr):
     tds = tr.query_selector_all("td.esg-table-body__td--section-table")
 
     def cell(i):
         return tds[i].inner_text().strip() if i < len(tds) else ""
 
-    term = cell(0)
-    status = cell(1)
-
     section = ""
     if len(tds) > 2:
         link = tds[2].query_selector("a")
-        if link:
-            section = link.inner_text().strip()
-
-    title = cell(3)
-    dates = cell(4)
-    location = cell(5)
-
-    methods = []
-    if len(tds) > 6:
-        for p in tds[6].query_selector_all("p"):
-            txt = p.inner_text().strip()
-            if txt:
-                methods.append(txt)
-
-    meetings = []
-    if len(tds) > 7:
-        for div in tds[7].query_selector_all("div"):
-            txt = div.inner_text().strip()
-            if txt:
-                meetings.append(txt)
-
-    instructors = []
-    if len(tds) > 8:
-        for span in tds[8].query_selector_all("span"):
-            txt = span.inner_text().strip()
-            if txt:
-                instructors.append(txt)
-
-    availability = cell(9)
-    credits = cell(10)
-    comments = cell(11)
+        section = link.inner_text().strip() if link else ""
 
     return {
-        "Term": term,
-        "Status": status,
+        "Term": cell(0),
+        "Status": cell(1),
         "Section": section,
-        "Title": title,
-        "Dates": dates,
-        "Location": location,
-        "InstructionalMethods": "; ".join(methods),
-        "Meetings": "; ".join(meetings),
-        "Instructors": "; ".join(instructors),
-        "Availability": availability,
-        "Credits": credits,
-        "Comments": comments,
+        "Title": cell(3),
+        "Dates": cell(4),
+        "Location": cell(5),
+        "InstructionalMethods": cell(6),
+        "Meetings": cell(7),
+        "Instructors": cell(8),
+        "Availability": cell(9),
+        "Credits": cell(10),
+        "Comments": cell(11),
     }
 
+# -------------------------------------------------
+# PAGINATION HANDLER (NO RECURSION)
+# -------------------------------------------------
+def scrape_all_result_rows(page):
+    all_rows = []
+    page_num = 1
 
-# -----------------------------
-# SCRAPE ONE SUBJECT
-# -----------------------------
+    while True:
+        page.wait_for_selector("tr.esg-table-body__row", timeout=15000)
+
+        rows = page.query_selector_all("tr.esg-table-body__row")
+        print(f"    → Page {page_num}: {len(rows)} rows")
+
+        all_rows.extend(rows)
+
+        # ✅ Use the NEXT page button by ID (not aria-label)
+        next_button = page.locator("#course-results-next-page")
+
+        # Stop if next button does not exist or is disabled
+        if next_button.count() == 0 or not next_button.is_enabled():
+            break
+
+        next_button.click()
+        page.wait_for_timeout(1200)  # allow table refresh
+        page_num += 1
+
+    return all_rows
+
+# -------------------------------------------------
+# SCRAPE SINGLE SUBJECT
+# -------------------------------------------------
 def scrape_single_subject(page, term, subject):
-    print(f"Scraping {subject}...")
+    print(f"Scraping {subject}…")
 
     page.goto(SEARCH_URL, wait_until="networkidle")
 
-    # ✅ Select Term (correct as-is)
+    # Select term
     page.get_by_label("Term").select_option(term)
 
-    # ✅ WAIT for Subject dropdown, then select option
+    # Subject dropdown
     subject_select = page.locator("#subject-0")
-    subject_select.wait_for(state="visible")
+    subject_select.wait_for()
     subject_select.select_option(subject)
 
-    # ✅ Switch to Section Listing
-    page.wait_for_selector("text=Section Listing")
+    # Use Section Listing
     page.get_by_text("Section Listing", exact=True).click()
 
-    # ✅ Click the correct Search button
+    # Search
     page.get_by_role("button", name="Search", exact=True).click()
 
-    # ✅ Wait for results
-    page.wait_for_selector("tr.esg-table-body__row", timeout=15000)
-
-    rows = page.query_selector_all("tr.esg-table-body__row")
+    # Pagination loop
+    rows = scrape_all_result_rows(page)
     return [parse_row(tr) for tr in rows]
 
-
-# -----------------------------
-# MAIN MULTI-SUBJECT SCRAPER
-# -----------------------------
+# -------------------------------------------------
+# MAIN SCRAPER
+# -------------------------------------------------
 def scrape(term, subjects):
     all_records = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=False,   # ✅ OPEN BROWSER WINDOW
-            slow_mo=400       # ✅ Slow enough to visually confirm behavior
+            headless=False,  # change to True when stable
+            slow_mo=300
         )
         context = browser.new_context()
         page = context.new_page()
@@ -123,33 +109,29 @@ def scrape(term, subjects):
             records = scrape_single_subject(page, term, subject)
             all_records.extend(records)
 
-        # Keep browser open briefly for inspection
-        page.wait_for_timeout(3000)
         browser.close()
 
     if not all_records:
-        print("No classes found for any subject.")
+        print("No classes found.")
         return
 
-    fieldnames = list(all_records[0].keys())
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=all_records[0].keys())
         writer.writeheader()
         writer.writerows(all_records)
 
-    print(f"✅ Saved {len(all_records)} total classes to {OUTPUT_CSV}")
+    print(f"\n✅ Saved {len(all_records)} total classes to:")
+    print(f"   {OUTPUT_CSV}")
 
-
-# -----------------------------
+# -------------------------------------------------
 # ENTRY POINT
-# -----------------------------
+# -------------------------------------------------
 if __name__ == "__main__":
     term = input("Enter term ID (e.g., 2026FA): ").strip()
-
     subjects = [
         s.strip().upper()
         for s in input(
-            "Enter subjects (comma-separated, e.g., ENES, MATH, CMSY): "
+            "Enter subjects (comma-separated, e.g., ENES, MATH, PHYS): "
         ).split(",")
     ]
 
