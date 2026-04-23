@@ -23,6 +23,9 @@
     src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js">
   </script>
 
+  <!-- ===== XLSX Import ===== -->
+  <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+
   <!-- ===== App Styles ===== -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -33,10 +36,43 @@
 
 <div class="container">
   <div class="sidebar">
-    <h3>Load Schedule CSV</h3>
-    <input type="file" id="csvInput" accept=".csv">
+    
+    
+<h3>Data Source</h3>
+<label>
+  <input type="radio" name="dataMode" value="csv" checked>
+  Schedule CSV (scraped)
+</label><br>
+<label>
+  <input type="radio" name="dataMode" value="xlsx">
+  Enrollment Excel
+</label>
 
-    <h3>Select Classes</h3>
+<hr>
+
+    <h3>Load File</h3>
+    
+<label>
+  Schedule CSV:
+  <input type="file" id="csvInput" accept=".csv">
+</label>
+
+<label>
+  Enrollment Excel:
+  <input type="file" id="excelInput" accept=".xlsx,.xls" disabled>
+</label>
+
+
+    
+<h3>Select Classes</h3>
+
+<input
+  type="text"
+  id="classFilter"
+  placeholder="Filter by section (e.g. ENES, 100, -001)"
+  style="width:100%; margin-bottom:6px;"
+>
+
 <div id="classList" class="class-list"></div>
 
 <button id="buildBtn" disabled>Build Schedule</button>
