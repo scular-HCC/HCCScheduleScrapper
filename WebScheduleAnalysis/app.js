@@ -1,13 +1,15 @@
 /*************************************************
  * CONSTANTS & GLOBAL STATE
  *************************************************/
-const DAY_MAP = { M: 1, T: 2, W: 3, Th: 4, F: 5 };
+const DAY_MAP = { M: 1, Tu: 2, W: 3, Th: 4, F: 5, Sa: 6, Su: 0 };
 const DAY_NAME = {
+  0: "Sunday",  
   1: "Monday",
   2: "Tuesday",
   3: "Wednesday",
   4: "Thursday",
-  5: "Friday"
+  5: "Friday",
+  6: "Saturday"
 };
 
 let classes = [];
@@ -169,21 +171,27 @@ function parseMeetings(text, section) {
     const start24 = to24Hour(start, sAmpm);
     const end24   = to24Hour(end, eAmpm);
 
-    days.replace(/,/g, "").split(/\s+/).forEach(d => {
-      const dayNum = DAY_MAP[d];
-      if (!dayNum) return;
+    
+	const dayTokens = days.match(/Th|Tu|Su|Sa|M|W|F/g) || [];
 
-      const key = `${section}|${dayNum}|${start24}|${end24}`;
-      if (seen.has(key)) return;
-      seen.add(key);
+	dayTokens.forEach(d => {
+	  const dayNum = DAY_MAP[d];
+	  if (dayNum === undefined) return;
 
-      meetings.push({
-        section,
-        day: dayNum,
-        start: start24,
-        end: end24
-      });
-    });
+	  const key = `${section}|${dayNum}|${start24}|${end24}`;
+	  if (seen.has(key)) return;
+	  seen.add(key);
+
+	  meetings.push({
+		section,
+		day: dayNum,
+		start: start24,
+		end: end24
+	  });
+	});
+
+
+      
   }
 
   return meetings;
@@ -344,14 +352,33 @@ function renderCalendar(meetings, conflicts) {
     document.getElementById("calendar"),
     {
       initialView: "timeGridWeek",
+	  firstDay: 1,
       allDaySlot: false,
-      weekends: false,
-      height: "auto",
-      slotMinTime: "08:00:00",
+	  dayHeaderFormat: { weekday: "short" },
+	  initialDate: new Date(2024, 0, 1), // Jan 1, 2024 in LOCAL time (month is 0-based
+	  timeZone: "local",
+      
+	  headerToolbar: {
+		left: "",
+		center: "",
+		right: ""
+	  },
+
+      
+	  slotMinTime: "08:00:00",
       slotMaxTime: "22:00:00",
       events: [...classEvents, ...conflictOverlays]
+
     }
   );
+
+//Debug 
+//console.table(classEvents.slice(0, 20).map(e => ({
+//title: e.title,
+//dow: e.daysOfWeek[0],
+//start: e.startTime,
+//end: e.endTime
+//})));
 
   calendar.render();
 }
@@ -475,15 +502,30 @@ function buildFromExcel(rows) {
 }
 
 // Fix the fractional days used in excel
-function excelTimeToClock(value) {
-  if (typeof value !== "number") return "";
 
-  const totalMinutes = Math.round(value * 24 * 60);
-  const hours = Math.floor(totalMinutes / 60);
+function excelTimeToClock(value) {
+  if (value === null || value === undefined || value === "") return "";
+
+  // If Excel gives a string like "17:30", pass it through safely
+  if (typeof value === "string") {
+    const s = value.trim();
+    // accept "H:MM" or "HH:MM"
+    if (/^\d{1,2}:\d{2}$/.test(s)) return s.padStart(5, "0");
+    return "";
+  }
+
+  if (typeof value !== "number" || Number.isNaN(value)) return "";
+
+  // ✅ Only keep time-of-day fraction (drops whole days)
+  const frac = ((value % 1) + 1) % 1; // safe even if weird negatives
+
+  const totalMinutes = Math.round(frac * 24 * 60);
+  const hours = Math.floor(totalMinutes / 60) % 24;
   const minutes = totalMinutes % 60;
 
-  return `${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}`;
+  return `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}`;
 }
+
 
 function resetApp() {
   classes = [];
@@ -506,35 +548,33 @@ function resetApp() {
 
 
 //Excel meeting Expander
+
+
+
 function expandExcelMeetings(row) {
-  const dayMap = {
-    M: 1,
-    Tu: 2,
-    W: 3,
-    Th: 4,
-    F: 5
-  };
+  const str = row.meetingDays || "";
 
-  let days = [];
-  let str = row.meetingDays;
+  // ✅ Tokenize days exactly like CSV parsing
+  // Handles: M, Tu, W, Th, F, MW, TuTh, MTuWTh, etc.
+  const dayTokens = str.match(/Th|Tu|M|W|F/g) || [];
 
-  if (str.includes("MTuWTh")) days = [1,2,3,4];
-  else {
-    if (str.includes("M")) days.push(1);
-    if (str.includes("Tu")) days.push(2);
-    if (str.includes("W")) days.push(3);
-    if (str.includes("Th")) days.push(4);
-    if (str.includes("F")) days.push(5);
-  }
+  // ✅ DEBUG (temporary – remove after confirming)
+// console.log("Excel days:", str, "→ tokens:", dayTokens);
 
-  return days.map(d => ({
-    section: row.section,
-    title: row.section,
-    day: d,
-    start: row.start,
-    end: row.end
-  }));
+  return dayTokens
+    .map(d => DAY_MAP[d])
+    .filter(dayNum => dayNum !== undefined)
+    .map(dayNum => ({
+      section: row.section,
+      title: row.section,
+      day: dayNum,
+      start: row.start,
+      end: row.end
+    }));
 }
+
+
+
 
 // Group data by section
 function groupClassesBySection(rows) {
