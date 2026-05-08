@@ -17,16 +17,66 @@ let calendar = null;
 let groupedClasses = {};
 
 
+
+
+
+
 /*************************************************
  * DOM ELEMENTS
  *************************************************/
 const fileInput   = document.getElementById("csvInput");
-
 const classList  = document.getElementById("classList");
 const resetBtn   = document.getElementById("resetBtn");
+const loadnewBtn = document.getElementById("loadnewBtn");
 const buildBtn    = document.getElementById("buildBtn");
 const pdfBtn      = document.getElementById("pdfBtn");
 const conflictDiv = document.getElementById("conflicts");
+const desiredClassesTextarea = document.getElementById("desiredClasses");
+const optimizeBtn = document.getElementById("optimizeBtn");
+
+// ======================================================
+// Program / Semester Buttons (above calendar)
+// - Disabled until a file is loaded
+// - Electrical Semester 1 auto-fills Desired Classes
+// ======================================================
+const programButtonsContainer = document.getElementById("programButtons");
+const programBtnEls = Array.from(document.querySelectorAll(".program-btn"));
+
+function setProgramButtonsEnabled(enabled) {
+  programBtnEls.forEach(btn => {
+    btn.disabled = !enabled;
+  });
+}
+
+
+// Disable on initial load (until CSV/XLSX is parsed)
+setProgramButtonsEnabled(false);
+
+if (programButtonsContainer) {
+  programButtonsContainer.addEventListener("click", (e) => {
+    const btn = e.target.closest(".program-btn");
+    if (!btn || btn.disabled) return;
+
+    const program  = btn.dataset.program;
+    const semester = btn.dataset.semester;
+
+    const courses = PROGRAM_TEMPLATES?.[program]?.[semester];
+
+    if (!courses || courses.length === 0) {
+      desiredClassesTextarea.value = "";
+      alert(`No template defined for ${program} Semester ${semester}.`);
+      return;
+    }
+
+    // Fill desired classes (one per line)
+    desiredClassesTextarea.value = courses.join("\n");
+
+    // Optionally run optimization automatically
+    optimizeBtn.click();
+  });
+}
+
+
 
 
 /*************************************************
@@ -84,6 +134,8 @@ fileInput.addEventListener("change", () => {
 
       // ✅ INITIAL RENDER
       populateClassList("");
+      optimizeBtn.disabled = false;
+      setProgramButtonsEnabled(true);
     },
     error: (err) => {
       alert("CSV parse error: " + err.message);
@@ -138,6 +190,7 @@ function populateClassList(filterText = "") {
 
   buildBtn.disabled = selectedSections.size === 0;
   resetBtn.disabled = false;
+  loadnewBtn.disabled = false;
 }
 
 
@@ -198,6 +251,26 @@ function parseMeetings(text, section) {
 }
 
 /*************************************************
+ * Change time to minutes for easier conflict detection (e.g. "13:30" -> 810)
+  - Returns NaN if invalid format
+ *************************************************/
+
+function timeToMinutes(t) {
+  if (!t) return NaN;
+  const s = String(t).trim();
+
+  // Ensure HH:MM (pads 9:05 -> 09:05)
+  const m = s.match(/^(\d{1,2}):(\d{2})$/);
+  if (!m) return NaN;
+
+  const hh = Number(m[1]);
+  const mm = Number(m[2]);
+  if (Number.isNaN(hh) || Number.isNaN(mm)) return NaN;
+
+  return hh * 60 + mm;
+}
+
+/*************************************************
  * CONFLICT DETECTION
  *************************************************/
 function detectConflicts(meetings) {
@@ -208,9 +281,22 @@ function detectConflicts(meetings) {
       const a = meetings[i];
       const b = meetings[j];
 
-      if (a.day !== b.day || a.section === b.section) continue;
+      // ✅ normalize day to number
+      const aDay = Number(a.day);
+      const bDay = Number(b.day);
+      if (aDay !== bDay) continue;
 
-      if (a.start < b.end && b.start < a.end) {
+      // ✅ compare numerically, not lexicographically
+      const aStart = timeToMinutes(a.start);
+      const aEnd   = timeToMinutes(a.end);
+      const bStart = timeToMinutes(b.start);
+      const bEnd   = timeToMinutes(b.end);
+
+      // If any time fails parsing, skip safely
+      if ([aStart, aEnd, bStart, bEnd].some(Number.isNaN)) continue;
+
+      // ✅ overlap test
+      if (aStart < bEnd && bStart < aEnd) {
         conflicts.push([a, b]);
       }
     }
@@ -219,24 +305,31 @@ function detectConflicts(meetings) {
   return conflicts;
 }
 
+
 /*************************************************
- * Reset BUTTON
+ * Reset/Clear BUTTON
  *************************************************/
 resetBtn.addEventListener("click", () => {
+  clearScheduleUI();
+  populateClassList(document.getElementById("classFilter").value || "");
+});
+
+/*************************************************
+ * Load New File BUTTON
+ *************************************************/
+loadnewBtn.addEventListener("click", () => {
   resetApp();
-  populateClassList("");
+  // populateClassList("");
 });
 
 
 
 /*************************************************
- * BUILD SCHEDULE BUTTON (CSV + EXCEL SAFE)
+ * BUILD SCHEDULE FUNCTION
  *************************************************/
-buildBtn.addEventListener("click", () => {
+function buildSchedule(selected) {
   conflictDiv.innerHTML = "";
 
-  // ✅ SOURCE OF TRUTH FOR SELECTION
-  const selected = Array.from(selectedSections);
   if (selected.length === 0) return;
 
   let meetings = [];
@@ -270,12 +363,153 @@ selected.forEach(section => {
 });
   }
 
-
   const conflicts = detectConflicts(meetings);
 
   renderCalendar(meetings, conflicts);
   renderConflictSidebar(conflicts);
+  pdfBtn.disabled = false;
+}
+
+/*************************************************
+ * BUILD SCHEDULE BUTTON (CSV + EXCEL SAFE)
+ *************************************************/
+buildBtn.addEventListener("click", () => {
+  buildSchedule(Array.from(selectedSections));
 });
+
+
+
+/************************************************* 
+ * OPTIMIZE SCHEDULE (MINIMAL CONFLICTS) + APPLY TO UI
+ *************************************************/
+// Programmatically select sections in the UI + state
+function applyOptimalSelection(optimalSections) {
+  // Update internal selection state
+  selectedSections.clear();
+  optimalSections.forEach(sec => selectedSections.add(sec));
+
+  // Re-render the class list so checkmarks reflect selectedSections
+  // (important if user had a filter applied or list was never refreshed)
+  const filterEl = document.getElementById("classFilter");
+  const currentFilter = filterEl ? filterEl.value : "";
+  populateClassList(currentFilter);
+
+  // Safety: force-check boxes that exist in the DOM right now
+  document.querySelectorAll("#classList input[type='checkbox']").forEach(cb => {
+    cb.checked = selectedSections.has(cb.value);
+  });
+
+  // Enable buttons like a normal manual selection
+  buildBtn.disabled = selectedSections.size === 0;
+  resetBtn.disabled = false;
+  loadnewBtn.disabled = false;
+}
+
+
+/*************************************************
+ * OPTIMIZE SCHEDULE BUTTON
+ *************************************************/
+optimizeBtn.addEventListener("click", () => {
+  const desired = desiredClassesTextarea.value.trim();
+  if (!desired) {
+    alert("Please enter desired classes.");
+    return;
+  }
+
+  const classNames = desired.split('\n').map(s => s.trim()).filter(s => s);
+  if (classNames.length === 0) {
+    alert("No valid class names entered.");
+    return;
+  }
+
+  // Find sections for each class
+  const sectionsPerClass = classNames.map(className => {
+    const sections = Object.keys(groupedClasses).filter(sec => sec.startsWith(className + '-'));
+    return { className, sections };
+  });
+
+  // Check if all have sections
+  if (sectionsPerClass.some(c => c.sections.length === 0)) {
+    alert("Some classes have no available sections.");
+    return;
+  }
+
+  
+// Find optimal combination
+const optimalSections = findOptimalSections(sectionsPerClass);
+
+if (!optimalSections || optimalSections.length === 0) {
+  alert("No schedule combination could be found.");
+  return;
+}
+
+// Select them in the UI + state
+applyOptimalSelection(optimalSections);
+
+// Run the same pipeline as the Build button
+buildSchedule(Array.from(selectedSections));
+
+  // Also enable PDF
+  pdfBtn.disabled = false;
+});
+
+/*************************************************
+ * GET MEETINGS FOR SECTIONS
+ *************************************************/
+function getMeetingsForSections(sections) {
+  let meetings = [];
+
+  if (currentMode === "csv") {
+    sections.forEach(sec => {
+      const row = classes.find(c => c.section === sec);
+      if (!row || !row.Meetings) return;
+      meetings.push(...parseMeetings(row.Meetings, sec));
+    });
+  } else {
+    sections.forEach(section => {
+      const rows = groupedClasses[section];
+      if (!rows) return;
+      rows.forEach(row => {
+        if (!row.meetingDays || !row.start || !row.end) return;
+        expandExcelMeetings(row).forEach(m => meetings.push(m));
+      });
+    });
+  }
+
+  return meetings;
+}
+
+/*************************************************
+ * FIND OPTIMAL SECTIONS (MINIMAL CONFLICTS)
+ *************************************************/
+function findOptimalSections(sectionsPerClass) {
+  let bestCombination = null;
+  let minConflicts = Infinity;
+
+  // Recursive function to try combinations
+  function tryCombination(index, currentSections) {
+    if (index === sectionsPerClass.length) {
+      // Check conflicts
+      const meetings = getMeetingsForSections(currentSections);
+      const conflicts = detectConflicts(meetings);
+      if (conflicts.length < minConflicts) {
+        minConflicts = conflicts.length;
+        bestCombination = currentSections.slice();
+      }
+      return;
+    }
+
+    const { sections } = sectionsPerClass[index];
+    for (const sec of sections) {
+      currentSections.push(sec);
+      tryCombination(index + 1, currentSections);
+      currentSections.pop();
+    }
+  }
+
+  tryCombination(0, []);
+  return bestCombination;
+}
 
 /*************************************************
  * SECTION COLOR MAP (NO RED TONES)
@@ -463,7 +697,6 @@ document.getElementById("excelInput").addEventListener("change", async (e) => {
   });
 
   buildFromExcel(rows);
-  populateClassList();
 });
 
 function buildFromExcel(rows) {
@@ -498,6 +731,8 @@ function buildFromExcel(rows) {
   groupedClasses = groupClassesBySection(classes);
   populateClassList("");
   console.log("✅ Grouped sections:", Object.keys(groupedClasses).length);
+  optimizeBtn.disabled = false;
+  setProgramButtonsEnabled(true);
 
 }
 
@@ -543,14 +778,13 @@ function resetApp() {
 
   buildBtn.disabled = true;
   resetBtn.disabled = true;
+  loadnewBtn.disabled = true;
   pdfBtn.disabled = true;
+  optimizeBtn.disabled = true;
 }
 
 
 //Excel meeting Expander
-
-
-
 function expandExcelMeetings(row) {
   const str = row.meetingDays || "";
 
@@ -573,9 +807,6 @@ function expandExcelMeetings(row) {
     }));
 }
 
-
-
-
 // Group data by section
 function groupClassesBySection(rows) {
   const map = {};
@@ -593,3 +824,65 @@ function groupClassesBySection(rows) {
 
   return map;
 }
+
+
+function clearScheduleUI() {
+  // Clear only selection + UI
+  selectedSections.clear();
+
+  // Uncheck any visible checkboxes
+  document.querySelectorAll("#classList input[type='checkbox']").forEach(cb => {
+    cb.checked = false;
+  });
+
+  // Clear conflicts + calendar
+  if (conflictDiv) conflictDiv.innerHTML = "";
+  if (calendar) {
+    calendar.destroy();
+    calendar = null;
+  }
+
+  // Disable buttons that depend on having a built schedule/selection
+  buildBtn.disabled = true;
+  pdfBtn.disabled = true;
+
+  // ✅ Keep Optimize enabled if data exists
+  const hasData =
+    (classes && classes.length > 0) ||
+    (groupedClasses && Object.keys(groupedClasses).length > 0);
+
+  optimizeBtn.disabled = !hasData;
+  setProgramButtonsEnabled(hasData);
+
+  // Reset button can stay enabled because data is still loaded
+  resetBtn.disabled = false;
+}
+
+
+/*************************************************
+ * Templates for program/semester buttons
+ *************************************************/
+const PROGRAM_TEMPLATES = {
+  "Electrical": {
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L"],
+    "2": ["MATH-182", "PHYS-111", "PHYS-111L", "ENES-171"],
+    "3": ["ENES-222", "MATH-240", "ENES-246", "PHYS-112", "PHYS-112L"],
+    "4": ["ENES-247", "ENES-205", "MATH-260"]
+  },
+  "Mechanical": { "1": [], "2": [], "3": [], "4": [] },
+  "Computer Eng": { "1": [], "2": [], "3": [], "4": [] },
+  "Civil": { "1": [], "2": [], "3": [], "4": [] },
+  "Aerospace": { "1": [], "2": [], "3": [], "4": [] },
+  "Chem/Bio Eng": { "1": [], "2": [], "3": [], "4": [] }
+};
+
+programButtonsContainer.addEventListener("click", (e) => {
+  const btn = e.target.closest(".program-btn");
+  if (!btn || btn.disabled) return;
+
+  const program = btn.dataset.program;
+  const semester = btn.dataset.semester;
+
+  const courses = PROGRAM_TEMPLATES?.[program]?.[semester] || [];
+  desiredClassesTextarea.value = courses.join("\n");
+});

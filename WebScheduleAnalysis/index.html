@@ -76,13 +76,81 @@
 <div id="classList" class="class-list"></div>
 
 <button id="buildBtn" disabled>Build Schedule</button>
-<button id="resetBtn" disabled>Reset</button>
+<button id="resetBtn" disabled>Reset/Clear</button>
 <button id="pdfBtn" disabled>Export PDF</button>
+<button id="loadnewBtn" disabled>Load New File</button>
+
+<hr>
+
+<h3>Desired Classes</h3>
+<textarea id="desiredClasses" placeholder="Enter class names, one per line (e.g. ENES-100, MATH-101)" rows="4" style="width:100%;"></textarea>
+<button id="optimizeBtn" disabled>Find Optimal Schedule</button>
 
 <div id="conflicts"></div>
   </div>
 
   <div class="calendar-container">
+    <div id="programButtons" class="program-buttons">
+      <div class="program-group" data-program="Electrical">
+        <div class="program-title">Electrical</div>
+        <div class="program-semesters">
+          <button type="button" class="program-btn" data-program="Electrical" data-semester="1" disabled>Semester 1</button>
+          <button type="button" class="program-btn" data-program="Electrical" data-semester="2" disabled>Semester 2</button>
+          <button type="button" class="program-btn" data-program="Electrical" data-semester="3" disabled>Semester 3</button>
+          <button type="button" class="program-btn" data-program="Electrical" data-semester="4" disabled>Semester 4</button>
+        </div>
+      </div>
+
+      <div class="program-group" data-program="Mechanical">
+        <div class="program-title">Mechanical</div>
+        <div class="program-semesters">
+          <button type="button" class="program-btn" data-program="Mechanical" data-semester="1" disabled>Semester 1</button>
+          <button type="button" class="program-btn" data-program="Mechanical" data-semester="2" disabled>Semester 2</button>
+          <button type="button" class="program-btn" data-program="Mechanical" data-semester="3" disabled>Semester 3</button>
+          <button type="button" class="program-btn" data-program="Mechanical" data-semester="4" disabled>Semester 4</button>
+        </div>
+      </div>
+
+      <div class="program-group" data-program="Computer Eng">
+        <div class="program-title">Computer Eng</div>
+        <div class="program-semesters">
+          <button type="button" class="program-btn" data-program="Computer Eng" data-semester="1" disabled>Semester 1</button>
+          <button type="button" class="program-btn" data-program="Computer Eng" data-semester="2" disabled>Semester 2</button>
+          <button type="button" class="program-btn" data-program="Computer Eng" data-semester="3" disabled>Semester 3</button>
+          <button type="button" class="program-btn" data-program="Computer Eng" data-semester="4" disabled>Semester 4</button>
+        </div>
+      </div>
+
+      <div class="program-group" data-program="Civil">
+        <div class="program-title">Civil</div>
+        <div class="program-semesters">
+          <button type="button" class="program-btn" data-program="Civil" data-semester="1" disabled>Semester 1</button>
+          <button type="button" class="program-btn" data-program="Civil" data-semester="2" disabled>Semester 2</button>
+          <button type="button" class="program-btn" data-program="Civil" data-semester="3" disabled>Semester 3</button>
+          <button type="button" class="program-btn" data-program="Civil" data-semester="4" disabled>Semester 4</button>
+        </div>
+      </div>
+
+      <div class="program-group" data-program="Aerospace">
+        <div class="program-title">Aerospace</div>
+        <div class="program-semesters">
+          <button type="button" class="program-btn" data-program="Aerospace" data-semester="1" disabled>Semester 1</button>
+          <button type="button" class="program-btn" data-program="Aerospace" data-semester="2" disabled>Semester 2</button>
+          <button type="button" class="program-btn" data-program="Aerospace" data-semester="3" disabled>Semester 3</button>
+          <button type="button" class="program-btn" data-program="Aerospace" data-semester="4" disabled>Semester 4</button>
+        </div>
+      </div>
+
+      <div class="program-group" data-program="Chem/Bio Eng">
+        <div class="program-title">Chem/Bio Eng</div>
+        <div class="program-semesters">
+          <button type="button" class="program-btn" data-program="Chem/Bio Eng" data-semester="1" disabled>Semester 1</button>
+          <button type="button" class="program-btn" data-program="Chem/Bio Eng" data-semester="2" disabled>Semester 2</button>
+          <button type="button" class="program-btn" data-program="Chem/Bio Eng" data-semester="3" disabled>Semester 3</button>
+          <button type="button" class="program-btn" data-program="Chem/Bio Eng" data-semester="4" disabled>Semester 4</button>
+        </div>
+      </div>
+    </div>
     <div id="calendar"></div>
   </div>
 </div>
