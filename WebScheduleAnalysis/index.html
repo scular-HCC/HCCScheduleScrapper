@@ -5,9 +5,7 @@
   <title>HCC Weekly Schedule Planner</title>
 
   <!-- ===== FullCalendar ===== -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css"
+
   >
   <script
     src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js">
@@ -28,6 +26,12 @@
 
   <!-- ===== App Styles ===== -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- ===== Favicon ===== -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+
+
+
 </head>
 
 <body>
@@ -111,6 +115,16 @@
         </div>
       </div>
 
+      <div class="program-group" data-program="Fire Protection">
+        <div class="program-title">Fire Protection</div>
+        <div class="program-semesters">
+          <button type="button" class="program-btn" data-program="Fire Protection" data-semester="1" disabled>Semester 1</button>
+          <button type="button" class="program-btn" data-program="Fire Protection" data-semester="2" disabled>Semester 2</button>
+          <button type="button" class="program-btn" data-program="Fire Protection" data-semester="3" disabled>Semester 3</button>
+          <button type="button" class="program-btn" data-program="Fire Protection" data-semester="4" disabled>Semester 4</button>
+        </div>
+      </div>
+
       <div class="program-group" data-program="Computer Eng">
         <div class="program-title">Computer Eng</div>
         <div class="program-semesters">
@@ -159,4 +173,10 @@
 <script src="app.js"></script>
 
 </body>
+
+
+<footer id="disclaimerFooter" class="disclaimer-footer">
+  This page is for informational purposes only and please verify all information prior to use.
+</footer>
+
 </html>

@@ -208,3 +208,17 @@ h1 {
   border-color: #2b6cb0;
   color: #fff;
 }
+
+
+/* ======================================================
+   FOOTER DISCLAIMER (STICKY FOOTER)
+   ====================================================== */
+.disclaimer-footer {
+  margin-top: auto; /* pushes footer to bottom when content is short */
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 0.85em;
+  color: #444;
+  text-align: center;
+  background: #fafafa;
+}

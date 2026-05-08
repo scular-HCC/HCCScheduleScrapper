@@ -429,19 +429,55 @@ optimizeBtn.addEventListener("click", () => {
   });
 
   // Check if all have sections
-  if (sectionsPerClass.some(c => c.sections.length === 0)) {
-    alert("Some classes have no available sections.");
-    return;
-  }
-
   
-// Find optimal combination
-const optimalSections = findOptimalSections(sectionsPerClass);
+// Split into available vs missing
+const missing = sectionsPerClass
+  .filter(c => c.sections.length === 0)
+  .map(c => c.className);
 
-if (!optimalSections || optimalSections.length === 0) {
-  alert("No schedule combination could be found.");
+const available = sectionsPerClass.filter(c => c.sections.length > 0);
+
+// If NOTHING is available, stop
+if (available.length === 0) {
+  alert("None of the desired classes have available sections.");
   return;
 }
+
+// If SOME are missing, warn but continue
+if (missing.length > 0) {
+  alert(
+    "Some classes have no available sections and will be skipped:\n\n" +
+    missing.join("\n")
+  );
+}
+
+// Find optimal combination using ONLY available classes
+const optimalSections = findOptimalSections(available);
+
+if (!optimalSections || optimalSections.length === 0) {
+  alert("No schedule combination could be found for the available courses.");
+  return;
+}
+
+// Select them in the UI + state
+applyOptimalSelection(optimalSections);
+
+// Build schedule
+buildSchedule(Array.from(selectedSections));
+
+// Add a persistent note AFTER buildSchedule() (because buildSchedule clears conflictDiv)
+if (missing.length > 0) {
+  conflictDiv.style.color = "#b45309"; // amber-ish
+  conflictDiv.innerHTML =
+    `<div style="margin-bottom:8px;">
+       ⚠ Skipped (no sections found):<br>
+       ${missing.map(x => `• ${x}`).join("<br>")}
+     </div>` + conflictDiv.innerHTML;
+}
+
+
+  
+
 
 // Select them in the UI + state
 applyOptimalSelection(optimalSections);
@@ -864,16 +900,53 @@ function clearScheduleUI() {
  *************************************************/
 const PROGRAM_TEMPLATES = {
   "Electrical": {
-    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L"],
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L","CMSY-141"],
     "2": ["MATH-182", "PHYS-111", "PHYS-111L", "ENES-171"],
     "3": ["ENES-222", "MATH-240", "ENES-246", "PHYS-112", "PHYS-112L"],
     "4": ["ENES-247", "ENES-205", "MATH-260"]
   },
-  "Mechanical": { "1": [], "2": [], "3": [], "4": [] },
-  "Computer Eng": { "1": [], "2": [], "3": [], "4": [] },
-  "Civil": { "1": [], "2": [], "3": [], "4": [] },
-  "Aerospace": { "1": [], "2": [], "3": [], "4": [] },
-  "Chem/Bio Eng": { "1": [], "2": [], "3": [], "4": [] }
+  
+  "Mechanical": { 
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L"],
+    "2": ["MATH-182", "PHYS-111", "PHYS-111L", "ENES-120"], 
+    "3": ["CHEM-135", "MATH-240", "ENES-181", "CHEM-136", "ENES-271"], 
+    "4": ["ENES-130", "ENES-140", "ENES-200", "PHYS-112", "PHYS-112L"]
+  },
+
+  "Fire Protection": { 
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L"],
+    "2": ["MATH-182", "PHYS-111", "PHYS-111L", "ENES-120"], 
+    "3": ["CHEM-135", "MATH-240", "ENES-181", "CHEM-136", "ENES-271"], 
+    "4": ["ENES-130", "ENES-140", "ENES-200", "ENES-250", "MATH-250"]
+  },
+  
+  "Computer Eng": {
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L"],
+    "2": ["MATH-182", "PHYS-111", "PHYS-111L", "CMSY-141"],
+    "3": ["CHEM-135", "CHEM-136", "ENES-246", "MATH-260", "ENES-171"],
+    "4": ["ENES-247", "ENES-205", "MATH-260"]
+  },
+  
+  "Civil": { 
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L"],
+    "2": ["MATH-182", "PHYS-111", "PHYS-111L", "ENES-120"], 
+    "3": ["CHEM-135", "MATH-240", "ENES-271", "CHEM-136", "GEOL-107"], 
+    "4": ["ENES-130", "ENES-140", "PHYS-112", "PHYS-112L", "MATH-260"]
+  },
+  
+  "Aerospace": { 
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L"],
+    "2": ["MATH-182", "PHYS-111", "PHYS-111L", "ENES-120"], 
+    "3": ["CHEM-135", "MATH-260", "ENES-181", "CHEM-136"], 
+    "4": ["ENES-130", "ENES-140", "ENES-283", "MATH-250"]
+  },
+  
+    "Chem/Bio Eng": {  
+    "1": ["ENES-100", "MATH-181", "ENGL-121", "PHYS-110", "PHYS-110L", "CHEM-101", "CHEM-101L"],
+    "2": ["MATH-182", "PHYS-111", "PHYS-111L", "BIOL-120", "BIOL-121"], 
+    "3": ["ENES-271", "MATH-240", "CHEM-201", "CHEM-201L"], 
+    "4": ["CHEM-202", "CHEM-202L", "MATH-260", "PHYS-112", "PHYS-112L"],
+}
 };
 
 programButtonsContainer.addEventListener("click", (e) => {
